@@ -1,0 +1,70 @@
+.our-work-tittle {
+    color: #000000;
+    text-align: center;
+    font: 400 32px "Alice", sans-serif;
+    position: relative;
+}
+
+.photo-grid img {
+    max-width: 100%;
+    height: 129px;
+    width: 181px;
+    overflow: auto;
+}
+
+.photos-collection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 50px;
+    gap: 35px;
+}
+
+.photos-collection-image {
+    max-width: 400px;
+    max-width: 400px;
+}
+
+.photos-collection-right {
+    border-radius: 41px;
+    flex-shrink: 0;
+    box-shadow: -4px 4px 8px 0px rgba(0, 0, 0, 0.75);
+    gap: 30px;
+}
+
+.photo-grid {
+    height: 400px;
+    /* Adjust the height as needed */
+    overflow-y: auto;
+    /* Negative margin to offset the padding from columns */
+}
+
+.photo-grid .col-6 {
+    padding: 0 15px;
+    /* Add horizontal spacing between columns */
+}
+
+.images {
+    background: #ffffff;
+    border-radius: 15px;
+    border-width: 5px;
+    border-style: solid;
+    /* border-image: linear-gradient( 135deg, rgb(37, 41, 37) 0%, rgba(255, 49, 49, 0) 100%); */
+    border-image-slice: 1;
+    margin: 10px;
+}
+
+.centered-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* Center vertically within the viewport */
+    text-align: center;
+    /* Center horizontally within the viewport */
+}
+
+.random {
+    text-decoration: none;
+}

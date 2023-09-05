@@ -1,0 +1,98 @@
+.frame-1 {
+    display: flex;
+    background-color: #fff;
+    justify-content: center;
+}
+
+.logo-txt {
+    display: flex;
+}
+
+.bg-clr {
+    background-color: #d5ddc0;
+}
+
+.nav-bar,
+.nav-bar * {
+    box-sizing: border-box;
+    font: 400 18px "Kalam", sans-serif;
+}
+
+.nav-bar {
+    background: #f2f2f2;
+    border-radius: 20px;
+    padding: 10px 20px 10px 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 25px;
+    /* position: relative; */
+}
+
+.image-1 {
+    flex-shrink: 0;
+    width: 82px;
+    height: 39px;
+    /* position: relative; */
+}
+
+.home {
+    color: #000000;
+    text-align: left;
+    /* position: relative; */
+}
+
+.why-us {
+    color: #000000;
+    text-align: left;
+    /* position: relative; */
+}
+
+.our-work {
+    color: #000000;
+    text-align: left;
+    /* position: relative; */
+}
+
+.workshop {
+    color: #000000;
+    text-align: left;
+    /* position: relative; */
+}
+
+.shop {
+    color: #000000;
+    text-align: left;
+    /* position: relative; */
+}
+
+.circ-heal-studio,
+.circ-heal-studio * {
+    box-sizing: border-box;
+    font-size: 18px;
+}
+
+.circ-heal-studio {
+    color: #000000;
+    text-align: left;
+    font: 400 32px "MedievalSharp", sans-serif;
+    /* position: relative; */
+    width: 352px;
+    align-items: center;
+    display: flex;
+}
+
+.circ-heal-studio-logo-removebg-preview-1,
+.circ-heal-studio-logo-removebg-preview-1 * {
+    box-sizing: border-box;
+}
+
+.circ-heal-studio-logo-removebg-preview-1 {
+    width: 118px;
+    height: 100px;
+    /* position: relative; */
+    box-shadow: -10px 10px 25px 0px rgba(0, 0, 0, 1);
+    margin-right: 26px;
+}

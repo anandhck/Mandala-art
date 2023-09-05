@@ -1,0 +1,190 @@
+/* text div */
+
+.img-text {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.carousel {
+    height: 156px;
+    /* Set a fixed height for consistent positioning */
+    overflow: hidden;
+    /* Hide overflowing content */
+    position: relative;
+    /* Optional: Adjust positioning if needed */
+}
+
+.circ-heal-studio-unleash-creativity-heal-with-art-span {
+    color: #513e3e;
+    font: 400 30px "Matura MT Script Capitals", sans-serif;
+}
+
+.circ-heal-studio-unleash-creativity-heal-with-art-span2 {
+    color: #000000;
+    font: 400 30px "Matura MT Script Capitals", sans-serif;
+}
+
+.circ-heal-studio-unleash-creativity-heal-with-art-span3 {
+    color: #1b7a30;
+    font: 400 30px "Matura MT Script Capitals", sans-serif;
+}
+
+.box-content {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* learn more */
+
+.learn-btn {
+    background: #d9d9d9;
+    border-radius: 25px;
+    box-shadow: -4px 4px 8px 0px rgba(0, 0, 0, 0.5), 4px -4px 8px 0px rgba(0, 0, 0, 0.32), inset -4px 4px 10px 0px rgba(0, 0, 0, 0.33);
+    cursor: pointer;
+}
+
+.btn-center {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 25px;
+}
+
+.learn-more-txt {
+    color: #000000;
+    text-align: left;
+    font: 400 20px "Merienda One", sans-serif;
+    position: relative;
+    text-decoration: none;
+}
+
+.sign-up {
+    color: #000000;
+    text-align: center;
+    font: 400 20px "Merienda One", sans-serif;
+    text-decoration: none;
+}
+
+.learn-btn-2 {
+    background: rgba(81, 225, 138, 0.35);
+    border-radius: 25px;
+    box-shadow: -4px 4px 8px 0px rgba(0, 0, 0, 0.5), 4px -4px 8px 0px rgba(0, 0, 0, 0.32), inset -4px 4px 10px 0px rgba(0, 0, 0, 0.33);
+    cursor: pointer;
+}
+
+.btn-cntrl {
+    display: flex;
+    justify-content: flex-end;
+    gap: 36px;
+    text-align: center;
+    align-items: center;
+}
+
+
+/* learn more */
+
+
+/* second slide */
+
+.find-your-center-create-your-purpose-circheal-studio-span {
+    color: #000000;
+    font: 400 32px "Marko One", sans-serif;
+}
+
+.find-your-center-create-your-purpose-circheal-studio-span2 {
+    color: #1fb72e;
+    font: 400 32px "Marko One", sans-serif;
+}
+
+.find-your-center-create-your-purpose-circheal-studio-span3 {
+    color: #000000;
+    font: 400 32px "Marko One", sans-serif;
+}
+
+.find-your-center-create-your-purpose-circheal-studio-span4 {
+    color: #000000;
+    font: 400 64px "Marko One", sans-serif;
+}
+
+.find-your-center-create-your-purpose-circheal-studio-span5 {
+    color: #000000;
+    font: 400 32px "Marko One", sans-serif;
+}
+
+
+/* second slide end */
+
+
+/* third slide */
+
+.creating-from-the-heart-healing-through-art-mind-body-creativity-aligned-circheal-studio-span {
+    color: #000000;
+    font: 700 32px "Kalam", sans-serif;
+}
+
+.creating-from-the-heart-healing-through-art-mind-body-creativity-aligned-circheal-studio-span2 {
+    color: #e61212;
+    font: 700 32px "Kalam", sans-serif;
+}
+
+.creating-from-the-heart-healing-through-art-mind-body-creativity-aligned-circheal-studio-span3 {
+    color: #000000;
+    font: 700 32px "Kalam", sans-serif;
+}
+
+
+/* third slide */
+
+
+/* text div end */
+
+
+/* carasoul slide navigator */
+
+.nav-btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 20px;
+}
+
+.btn-clr {
+    background: #bb1414;
+    box-shadow: -4px 4px 4px 0px rgba(0, 0, 0, 0.5);
+}
+
+.btn-clr-2 {
+    box-shadow: -4px 4px 4px 0px rgba(0, 0, 0, 0.5);
+}
+
+
+/* nav end */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.image-container {
+    position: relative;
+    width: 380px;
+    /* Set the desired fixed width */
+    height: 380px;
+    /* Set the desired fixed height */
+    overflow: hidden;
+}
+
+#dynamic-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

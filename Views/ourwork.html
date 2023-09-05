@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ourwork</title>
+    <link rel="stylesheet" href="./css/ourwork.css">
+    <link href="https://fonts.googleapis.com/css2?family=Alice&family=Metal+Mania&family=Kalam&display=swap"
+        rel="stylesheet">
+    <!-- <link rel="stylesheet" type="text/stylesheet" src="/public/resources/js/bootstrap/css/bootstrap.min.css"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+</head>
+
+<body>
+    <div class="our-work-tittle">
+        Digital and Hand made Arts<br />Click on the image to view in big size.
+    </div>
+    <div>
+        <button onclick="resizeGallery(6)">small icons</button>
+        <button onclick="randomGallery(6)">randomview</button>
+        <a class="random" href="./preview.html">Preview</a>
+
+    </div>
+
+    <div class="grid-container" id="gallery">
+        <div data-page="1">
+            <img class='grid-item grid-item-1' src="./images/ourwork/IMG-1.jpg" alt=''>
+
+        </div>
+        <div data-page="1">
+            <img class='grid-item grid-item-2' src="./images/ourwork/IMG-2.jpg" alt=''>
+
+        </div>
+        <div data-page="1">
+            <img class='grid-item grid-item-3' src="./images/ourwork/IMG-3.jpg" alt=''>
+
+        </div>
+        <div data-page="1">
+            <img class='grid-item grid-item-4' src="./images/ourwork/IMG-4.jpg" alt=''>
+
+        </div>
+        <div data-page="1">
+            <img class='grid-item grid-item-5' src="./images/ourwork/IMG-5.jpg" alt=''>
+
+        </div>
+        <div data-page="1">
+            <img class='grid-item grid-item-6' src="./images/ourwork/IMG-6.jpg" alt=''>
+
+        </div>
+        <div data-page="2">
+            <img class='grid-item grid-item-7' src="./images/ourwork/IMG-8.jpg" alt=''>
+
+        </div>
+        <div data-page="2">
+            <img class='grid-item grid-item-8' src="./images/ourwork/IMG-8.jpg" alt=''>
+
+        </div>
+        <div data-page="2">
+            <img class='grid-item grid-item-9' src="./images/ourwork/IMG-9.jpg" alt=''>
+
+        </div>
+
+    </div>
+
+    <div id="imagePreview">
+        <img id="previewImage" src="" alt="">
+        <button id="closePreview">Close</button>
+    </div>
+
+    <div id="pagination">
+
+
+        <a id="prevPage" href="#">&#8592; Previous</a>
+
+        <div id="pageNumbers"></div>
+        <a id="nextPage" href="#">Next &rarr;</a>
+    </div>
+
+    <script src="./js/jQuery/jquery.3.7.0.js"></script>
+    <script src="./js/jQuery/jquery-3.3.1.slim.min.js"></script>
+    <script src="./js/bootstrap/js/bootstrap.bundle.js"></script>
+    <script src="./js/bootstrap/js/bootstrap.min.js"></script>
+    <script src="./js/gallery.js">
+    </script>
+</body>
+
+</html>
