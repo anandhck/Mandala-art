@@ -1,5 +1,9 @@
 /* whys head content start */
 
+body {
+    background-color: #fcf4fa !important;
+}
+
 .body-margin {
     margin: 30px;
 }
@@ -11,33 +15,44 @@
 }
 
 .p-style {
-    font: 400 27px "Alice", sans-serif;
-    box-sizing: border-box;
+    font-family: "Alice", sans-serif;
+    font-size: 2vw;
     text-align: left;
-    margin-left: 56px;
 }
 
 .para-box {
     box-sizing: border-box;
     position: relative;
-    width: 910px;
-    /* height: 360px; */
+    width: 100%;
+    height: auto;
 }
 
 .img-style {
-    width: 376px;
-    height: 319px;
+    width: 100%;
+    height: auto;
 }
 
 .img-style-2 {
-    /* width: 382px; */
-    height: 432px;
-    position: relative;
+    width: 100%;
+    height: auto;
 }
 
 .div-content {
     margin: 35px;
     box-sizing: border-box;
+}
+
+.div-content::before {
+    content: "";
+    background-image: url('../images/image_6483441-removebg-preview.png');
+    background-size: 30rem;
+    background-position: left top 100px;
+    background-attachment: scroll;
+    /* background-repeat: no-repeat; */
+    opacity: 0.1;
+    position: absolute;
+    width: 70%;
+    height: 85%;
 }
 
 
@@ -46,8 +61,9 @@
 .why-to-choose-circheal-studio {
     color: #000000;
     text-align: center;
-    font: 400 64px "Metal Mania", sans-serif;
+    font-family: "Metal Mania", sans-serif;
     position: relative;
+    font-size: 4vw;
 }
 
 
@@ -56,6 +72,7 @@
 .rectangle-46,
 .rectangle-46 * {
     box-sizing: border-box;
+    position: relative;
 }
 
 .rectangle-46 {
@@ -65,42 +82,35 @@
     border-style: solid;
     border-image: linear-gradient( 218.83deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.51) 100%);
     border-image-slice: 1;
-    /* width: 1426px;
-    height: 939px; */
-    /* position: relative; */
     box-shadow: -4px 4px 8px 0px rgba(0, 0, 0, 0.65);
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 63px;
+    position: relative;
+    opacity: 0.8;
 }
 
-.passionate-instructors-who-nurture-creativity-growth {
+.passionate-tittle-growth {
     color: #ff0000;
     text-align: right;
-    font: 700 28px "Kalam", sans-serif;
-    /* position: relative; */
-    /* width: 512.22px; */
-    /* height: 102.76px; */
+    font-family: "Kalam", sans-serif;
+    font-size: 2vw;
 }
 
-.passionate-instructors-who-nurture-creativity-growth-2 {
+.passionate-tittle-growth-2 {
     color: #ff0000;
     text-align: left;
-    font: 700 28px "Kalam", sans-serif;
-    /* position: relative; */
-    /* width: 512.22px; */
-    /* height: 102.76px; */
+    font-family: "Kalam", sans-serif;
     margin-left: 33px;
+    font-size: 2vw;
 }
 
 .header-value {
     color: #000000;
     text-align: right;
-    font: 400 24px "Kalam", sans-serif;
-    /* position: relative; */
-    /* width: 512px; */
-    /* height: 117px; */
+    font-family: "Kalam", sans-serif;
+    font-size: 2vw;
     margin-top: -20px;
 }
 
@@ -108,10 +118,8 @@
     margin-top: -20px;
     color: #000000;
     text-align: left;
-    font: 400 24px "Kalam", sans-serif;
-    /* position: relative; */
-    /* width: 587.03px; */
-    /* height: 117.53px; */
+    font-family: "Kalam", sans-serif;
+    font-size: 2vw;
     margin-left: 35px;
 }
 
@@ -138,28 +146,46 @@
 }
 
 .rectangle-21 {
-    /* background: #e9c1c1; */
-    /* border-radius: 12px;
-    border-style: solid;
-    border-color: #000000;
-    border-width: 2px;
-    /* width: 208px; */
     position: relative;
     display: flex;
     justify-content: flex-end;
 }
 
 .rectangle-art {
-    /* background: #e9c1c1; */
-    /* border-radius: 12px;
-    border-style: solid;
-    border-color: #000000;
-    border-width: 2px;
-    /* width: 208px; */
     position: relative;
     display: flex;
     justify-content: flex-start;
     margin-left: 30px;
+}
+
+.img-flower {
+    position: absolute;
+    bottom: -99px;
+    left: -249px;
+    z-index: 1;
+    width: 100%;
+    height: auto;
+    /* Place the image above other content */
+}
+
+.rectangle-46::before {
+    content: "";
+    background-image: url('../images/image_6483441-removebg-preview.png');
+    /* Set your background image URL */
+    background-size: 200% 100%;
+    /* Double the width to cover entire div */
+    background-position: right top;
+    /* Position the image at the top-right corner */
+    background-attachment: scroll;
+    opacity: 0.1;
+    /* Adjust the opacity value (0.1 = 10%) */
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    /* Half the width of the container */
+    height: 100%;
+    z-index: -1;
 }
 
 
@@ -175,60 +201,11 @@
     gap: 16px;
 }
 
-.join-us,
-.join-us * {
-    box-sizing: border-box;
-}
-
-.join-us-btn {
-    color: #000000;
-    text-align: center;
-    font: 700 32px "Kalam", sans-serif;
-    position: relative;
-    /* width: 184px; */
-    /* height: 63px; */
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), -8px 8px 16px 0px rgba(0, 0, 0, 0.5);
-    border-radius: 15px;
-    gap: 18px;
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-}
-
-.join-us {
-    text-align: center;
-    font: 700 22px "Kalam", sans-serif;
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 16px;
-    text-decoration: none;
-    border: none;
-}
-
 
 /* benifits-tittles */
 
 
 /* workshop-benifits */
-
-.workshop-para {
-    color: #f6f6f6;
-    text-align: left;
-    font: 700 24px "Kalam", sans-serif;
-    position: relative;
-    /* width: 1394px; */
-}
-
-.workshop-benefits {
-    color: #00fc48;
-    text-align: center;
-    font: 700 32px "Kalam", sans-serif;
-    position: relative;
-    display: flex;
-    justify-content: flex-start;
-}
 
 .rectangle-44 {
     background: rgba(24, 22, 22, 0.75);
@@ -238,7 +215,6 @@
     border-image: linear-gradient( 70.83deg, rgba(131, 123, 123, 0.44) 0%, rgba(255, 255, 255, 0.44) 100%);
     border-image-slice: 1;
     position: relative;
-    /* padding: 25px; */
 }
 
 .workshop-benifits-con {
@@ -248,48 +224,6 @@
 .benifits-contents {
     display: flex;
     margin: 25px;
-}
-
-.benifits-contents-header {
-    color: #00fc48;
-    text-align: left;
-    font: 700 32px "Kalam", sans-serif;
-}
-
-.benifits-contents-header-2 {
-    color: #00fc48;
-    text-align: left;
-    font: 700 28px "Kalam", sans-serif;
-    /* position: relative; */
-    /* width: 512.22px; */
-}
-
-.benifits-contents-value {
-    color: #ffffff;
-    text-align: left;
-    font: 700 19px "Kalam", sans-serif;
-    position: relative;
-    /* width: 655px; */
-}
-
-.benifits-contents-value-2 {
-    color: #ffffff;
-    text-align: left;
-    font: 700 19px "Kalam", sans-serif;
-    position: relative;
-    /* width: 655px; */
-}
-
-.workshop {
-    display: flex;
-    justify-content: flex-end;
-    color: #000000;
-    text-align: center;
-    font: 700 32px "Kalam", sans-serif;
-    /* box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), -8px 8px 16px 0px rgba(0, 0, 0, 0.5); */
-    /* border-radius: 15px; */
-    /* width: 219px; */
-    height: 37px;
 }
 
 
@@ -326,9 +260,11 @@ input.form-control.input-style {
     border-radius: 15px;
     position: relative;
     box-shadow: -4px 4px 16px 0px rgba(0, 0, 0, 0.75);
-    height: 200px;
+    width: 100%;
+    height: auto;
     margin: auto;
-    margin-left: 20px;
+    display: flex;
+    justify-content: center;
 }
 
 .whatsapp-1 {
@@ -348,10 +284,11 @@ input.form-control.input-style {
 .whats-app-text {
     color: #000000;
     text-align: center;
-    font: 700 20px "Kalam", sans-serif;
+    font-family: "Kalam", sans-serif;
+    font-size: 2vw;
     position: relative;
-    /* width: 271px; */
-    height: 54.45px;
+    width: 271px;
+    height: auto;
     margin-bottom: 11px;
 }
 
@@ -389,7 +326,7 @@ input.form-control.input-style {
 }
 
 .mandala-art {
-    background: rgba(249, 232, 232, 0.21);
+    background-color: rgba(249, 232, 232, 0.21);
     border-radius: 15px;
     border-style: solid;
     border-color: #0eff8b;
@@ -397,6 +334,7 @@ input.form-control.input-style {
     max-width: 800px;
     width: 100%;
     margin: 0 auto;
+    /* background-color: #514e4e; */
 }
 
 .art-btns {
@@ -423,6 +361,7 @@ input.form-control.input-style {
     border-style: solid;
     border-color: #000000;
     border-width: 1px;
+    background-color: #f0eaea;
 }
 
 .mandala-art-header {
@@ -462,13 +401,14 @@ input.form-control.input-style {
 
 .nav-tab-dsg-doodle {
     border-color: #ff3a3a;
+    /* background-color: #514e4e; */
 }
 
 .doodle-mandala-art {
-    background: rgba(249, 232, 232, 0.21);
     border-radius: 15px;
     border-style: solid;
     border-color: #3affff;
+    background-color: rgba(249, 232, 232, 0.21);
     border-width: 5px;
     max-width: 800px;
     width: 100%;
@@ -476,12 +416,105 @@ input.form-control.input-style {
 }
 
 .bottle-mandala-art {
-    background: rgba(249, 232, 232, 0.21);
+    /* background: rgba(249, 232, 232, 0.21); */
     border-radius: 15px;
     border-style: solid;
     border-color: #ff3a3a;
+    /* background-color: #514e4e; */
+    background-color: rgba(249, 232, 232, 0.21);
     border-width: 5px;
     max-width: 800px;
     width: 100%;
     margin: 0 auto;
+}
+
+
+/* art modal */
+
+.join-us,
+.join-us * {
+    box-sizing: border-box;
+}
+
+.join-us-btn {
+    color: #000000;
+    text-align: center;
+    font-family: "Kalam", sans-serif;
+    font-size: 2vw;
+    position: relative;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), -8px 8px 16px 0px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    gap: 18px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+
+.join-us {
+    text-align: center;
+    font-family: "Kalam", sans-serif;
+    font-size: 2vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 16px;
+    text-decoration: none;
+    border: none;
+}
+
+.workshop {
+    display: flex;
+    justify-content: flex-end;
+    color: #000000;
+    text-align: center;
+    font-family: "Kalam", sans-serif;
+    font-size: 2vw;
+    height: 37px;
+}
+
+.workshop-benefits {
+    color: #00fc48;
+    text-align: center;
+    font-family: "Kalam", sans-serif;
+    font-size: 2vw;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.workshop-para {
+    color: #f6f6f6;
+    text-align: left;
+    font-family: "Kalam", sans-serif;
+    font-size: 2vw;
+    position: relative;
+    /* width: 1394px; */
+}
+
+.benifits-contents-header {
+    color: #00fc48;
+    text-align: left;
+    font-family: "Kalam", sans-serif;
+    font-size: 2vw;
+}
+
+.benifits-contents-header-2 {
+    color: #00fc48;
+    text-align: left;
+    font-family: "Kalam", sans-serif;
+    font-size: 2vw;
+}
+
+.benifits-contents-value {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Kalam", sans-serif;
+    font-size: 2vw;
+}
+
+.benifits-contents-value-2 {
+    color: #ffffff;
+    text-align: left;
+    font-family: "Kalam", sans-serif;
+    font-size: 2vw;
 }

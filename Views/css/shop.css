@@ -1,0 +1,38 @@
+.join-us-header {
+    display: flex;
+    box-sizing: border-box;
+    margin: 30px;
+}
+
+.para-box {
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+    height: auto;
+    /* width: 910px; */
+    /* height: 360px; */
+}
+
+.p-style {
+    font-family: "Alice", sans-serif;
+    font-size: 2vw;
+    /* box-sizing: border-box; */
+    text-align: left;
+    /* margin-left: 56px; */
+}
+
+.img-style {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+
+.join-us {
+    color: #000000;
+    text-align: center;
+    font: 700 40px "Kalam", sans-serif;
+    position: relative;
+    width: 184px;
+    height: 63px;
+    background-color: bisque;
+}

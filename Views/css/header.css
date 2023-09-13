@@ -1,98 +1,103 @@
-.frame-1 {
+@font-face {
+    font-family: 'MedievalSharp';
+    src: url('./font/MedievalSharp-Regular.ttf') format('truetype');
+    /* You can also specify other font formats like woff, woff2 for better browser compatibility */
+}
+
+.nav-header {
     display: flex;
-    background-color: #fff;
+    justify-content: flex-end;
+}
+
+.header-bg {
+    background: #d8dad8;
+    border-radius: 20px;
+    box-shadow: -5px 8px 8px 0px rgba(0, 0, 0, 0.45);
+}
+
+.header-bg-2 {
+    background: #d8dad8;
+    border-radius: 20px;
+}
+
+.media {
+    align-items: center;
+    display: flex;
+    background: #d8dad8;
+}
+
+.image-div {
+    display: flex;
+    align-items: center;
     justify-content: center;
 }
 
-.logo-txt {
+.madala-head {
+    color: #000000;
+    text-align: left;
+    font: 400 28px "MedievalSharp", sans-serif;
+    overflow: hidden;
+}
+
+.h-logo {
+    max-width: 200px;
+}
+
+.media-body {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.bg-clr {
-    background-color: #d5ddc0;
-}
-
-.nav-bar,
-.nav-bar * {
-    box-sizing: border-box;
-    font: 400 18px "Kalam", sans-serif;
-}
-
-.nav-bar {
-    background: #f2f2f2;
-    border-radius: 20px;
-    padding: 10px 20px 10px 20px;
-    display: flex;
-    flex-direction: row;
-    gap: 30px;
-    align-items: flex-start;
-    justify-content: flex-start;
-    margin-top: 25px;
-    /* position: relative; */
-}
-
-.image-1 {
-    flex-shrink: 0;
-    width: 82px;
-    height: 39px;
-    /* position: relative; */
-}
-
-.home {
-    color: #000000;
-    text-align: left;
-    /* position: relative; */
-}
-
-.why-us {
-    color: #000000;
-    text-align: left;
-    /* position: relative; */
-}
-
-.our-work {
-    color: #000000;
-    text-align: left;
-    /* position: relative; */
-}
-
-.workshop {
-    color: #000000;
-    text-align: left;
-    /* position: relative; */
-}
-
-.shop {
-    color: #000000;
-    text-align: left;
-    /* position: relative; */
-}
-
-.circ-heal-studio,
-.circ-heal-studio * {
-    box-sizing: border-box;
-    font-size: 18px;
+.media-body a {
+    text-decoration: none;
 }
 
 .circ-heal-studio {
-    color: #000000;
-    text-align: left;
-    font: 400 32px "MedievalSharp", sans-serif;
-    /* position: relative; */
-    width: 352px;
-    align-items: center;
     display: flex;
+    align-items: center;
 }
 
-.circ-heal-studio-logo-removebg-preview-1,
-.circ-heal-studio-logo-removebg-preview-1 * {
-    box-sizing: border-box;
+.header-img {
+    z-index: -22222;
+}
+
+.navbar-nav .nav-item .nav-link {
+    font: 400 24px "Kalam", sans-serif;
+    color: #000000;
+}
+
+.frame-1 {
+    background: #fcf4fa;
+    border-radius: 15px;
+    width: 1552px;
+    height: 155px;
+    position: absolute;
+    left: calc(50% - 776px);
+    top: 56px;
 }
 
 .circ-heal-studio-logo-removebg-preview-1 {
-    width: 118px;
-    height: 100px;
-    /* position: relative; */
+    width: 264px;
+    height: 324px;
+    position: absolute;
+    left: 2px;
+    top: calc(50% - 115.5px);
     box-shadow: -10px 10px 25px 0px rgba(0, 0, 0, 1);
-    margin-right: 26px;
+}
+
+@media screen and (max-width: 768px) {
+    /* Your mobile styles here */
+    body {
+        font-size: 16px;
+        /* Adjust font size for mobile view */
+    }
+    .madala-head {
+        display: none;
+    }
+    /* Example: Adjust the width of a container for mobile */
+    .container {
+        width: 100%;
+        padding: 10px;
+    }
 }

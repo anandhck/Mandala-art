@@ -11,10 +11,14 @@
 </head>
 
 <body>
-    <div class="container home-page">
-        <div class="row">
-            <div class="img-text">
+    <div class="container">
+
+        <div class="row home-page ">
+            <div id="header-file"></div>
+
+            <div class="img-text mt-5">
                 <div class="col-6">
+
                     <div class="box-content">
                         <div class="image-container">
                             <img id="dynamic-image" src="./images/homeart.png" alt="Dynamic Image">
@@ -101,12 +105,12 @@
                         <br>
                         <div class="row">
                             <div class="btn-center">
-                                <div class="col-4 learn-btn">
+                                <div class="col-3 learn-btn">
                                     <a class="learn-more-txt" href="home.html">
                                         Learn more..
                                     </a>
                                 </div>
-                                <div class="col-4 learn-btn-2">
+                                <div class="col-3 learn-btn-2">
                                     <a class="sign-up">
                                         Sign up
                                     </a>
@@ -123,6 +127,7 @@
 
     <script src="./js/jQuery/jquery.3.7.0.js"></script>
     <script src="./js/jQuery/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <script src="./js/bootstrap/js/bootstrap.bundle.js"></script>
     <script src="./js/bootstrap/js/bootstrap.min.js"></script>
 
@@ -148,6 +153,11 @@
 
         // Load the next image every 3 seconds (adjust as needed)
         setInterval(loadNextImage, 3000);
+
+
+        $(document).ready(function () {
+            $("#header-file").load("header.html");
+        });
     </script>
 </body>
 

@@ -22,8 +22,8 @@
 }
 
 .photos-collection-image {
-    max-width: 400px;
-    max-width: 400px;
+    width: 100%;
+    height: auto;
 }
 
 .photos-collection-right {
@@ -31,10 +31,11 @@
     flex-shrink: 0;
     box-shadow: -4px 4px 8px 0px rgba(0, 0, 0, 0.75);
     gap: 30px;
+    margin: 34px
 }
 
 .photo-grid {
-    height: 400px;
+    height: 438px;
     /* Adjust the height as needed */
     overflow-y: auto;
     /* Negative margin to offset the padding from columns */

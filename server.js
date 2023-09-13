@@ -14,7 +14,11 @@ app.use(express.static(path.join(__dirname, 'Views')));
 
 // Define routes
 app.get('/', function(req, res) {
-    res.sendFile(path.join(__dirname, 'Views', 'whyus.html'));
+    res.sendFile(path.join(__dirname, 'Views', 'index.html'));
+});
+
+app.get('/home', function(req, res) {
+    res.sendFile(path.join(__dirname, 'Views', 'home.html'));
 });
 
 app.get('/whyus', function(req, res) {

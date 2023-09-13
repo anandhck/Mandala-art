@@ -1,21 +1,40 @@
 .reviews {
     color: #000000;
     text-align: left;
-    font: 700 40px "Kalam", sans-serif;
+    font-family: "Kalam", sans-serif;
+    font-size: 2vm;
     position: relative;
 }
 
 .preview-box {
     margin-top: 50px;
-    background-color: #8ed7a3;
+    background-color: rgba(240, 241, 230, 9);
+    /* background-color: rgba(240, 241, 230, 0.12); */
+    border-image: linear-gradient( 218.83deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.51) 100%);
 }
 
-.card {
+.carousel-inner .card {
     margin: 30px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-width: 1px;
+    border-style: solid;
+    /* border-image: linear-gradient( 218.83deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.51) 100%); */
+    /* border-image-slice: 1; */
+    /* position: relative; */
+    box-shadow: -15px 15px 8px 0px rgba(0, 0, 0, 0.45);
+}
+
+.card-body {
+    /* border-radius: 44px; */
+    background-color: rgba(255, 255, 255, 0.5);
 }
 
 .card-text {
-    font-size: 17px;
+    font-size: 1vw;
+}
+
+.card-title {
+    font-size: 1.5vw;
 }
 
 .carousel-indicators.carousel-indicators-next {
@@ -23,7 +42,8 @@
 }
 
 .story-box {
-    background-color: #6e716f;
+    background: rgb(184, 199, 208);
+    background: linear-gradient(243deg, rgba(184, 199, 208, 1) 15%, rgba(143, 207, 216, 1) 56%, rgba(230, 197, 194, 1) 100%);
 }
 
 .story-card-title {
@@ -34,4 +54,13 @@
 
 .story-box-header {
     margin-top: 30px;
+}
+
+
+/* .card {
+    border-radius: 44px;
+}*/
+
+.story-box .card {
+    background-color: rgba(240, 241, 230, 0.12);
 }

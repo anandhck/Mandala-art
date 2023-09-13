@@ -1,4 +1,4 @@
-body {
+.our-work-body {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -144,6 +144,12 @@ h1 {
     text-align: center;
     font: 400 32px "Alice", sans-serif;
     position: relative;
+}
+
+.nav-link a {
+    font: 400 24px "Kalam", sans-serif;
+    color: black;
+    text-decoration: none;
 }
 
 
