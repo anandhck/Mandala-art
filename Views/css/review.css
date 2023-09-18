@@ -64,3 +64,19 @@
 .story-box .card {
     background-color: rgba(240, 241, 230, 0.12);
 }
+
+.next-btn .carousel-control-prev {
+    margin-top: 70px;
+    margin-left: -85px;
+}
+
+.next-btn .carousel-control-next {
+    margin-top: 70px;
+    margin-right: -85px;
+}
+
+.next-btn .carousel-control-next .carousel-control-prev-icon,
+.next-btn .carousel-control-next .carousel-control-next-icon {
+    color: red !important;
+    /* Set the desired color */
+}

@@ -63,7 +63,8 @@
 }
 
 .navbar-nav .nav-item .nav-link {
-    font: 400 24px "Kalam", sans-serif;
+    font-family: "Kalam", sans-serif;
+    font-size: 2vw;
     color: #000000;
 }
 
@@ -100,4 +101,12 @@
         width: 100%;
         padding: 10px;
     }
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: #9fa0a2;
+    /* Background color on hover */
+    color: #fff;
+    /* Text color on hover */
+    border-radius: 30px;
 }

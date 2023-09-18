@@ -6,10 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
     <link rel="stylesheet" href="./css/home.css">
-    <link rel="stylesheet" href="./css/whyus.css">
+    <!-- <link rel="stylesheet" href="./css/whyus.css"> -->
     <link rel="stylesheet" href="./css/review.css">
     <link rel="stylesheet" href="./css/preview.css">
-    <link href="https://fonts.googleapis.com/css2?family=Alice&family=Metal+Mania&family=Kalam&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Alice&family=Metal+Mania&family=Kalam&display=swap"
+        rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
 </head>
@@ -17,12 +18,13 @@
 <body>
 
     <div class="container-fluid con-bg">
-        <div id="header-file"></div>
+
         <div class="row">
-            <div class="col-12 slider-container">
-                <div class="slider-content">
+            <div id="header-file"></div>
+            <div class="col-12 slider-container mb-3">
+                <div class="slider-content ">
                     <!-- Place your offers or content here -->
-                    <div class="offer mt-1">% Offer and upoming workshops %</div>
+                    <div class="offer mt-1 ">% Offer and upoming workshops %</div>
                     <!-- Repeat your offers as needed -->
                 </div>
             </div>
@@ -31,30 +33,38 @@
         <div class="container">
             <div class="row">
                 <div class="home-about-us">
-                    <div class="col-7">
-                        <div class="about-us p-5">
-                            <h3 class="about-txt mb-5">About us</h3>
+                    <div class="col-8 bg-img-div">
+                        <div class="about-us p-2 ms-5">
+                            <h3 class="about-txt ms-4 mb-4">About us</h3>
                             <span><span class="welcome-experiences-span">
-                                    &quot;Welcome to Circheal, where the mesmerizing world of </span><span class="welcome-experiences-span2">mandala
+                                    &quot;Welcome to Circheal, where the mesmerizing world of </span><span
+                                    class="welcome-experiences-span2">mandala
                                     art</span><span class="welcome-experiences-span3">
                                     and playful doodles come together to ignite creativity and inspire
                                     connections. With a passion for intricate designs and boundless
-                                    imagination, <br /><br />
-                                    we offer a range of immersive workshops, classes, and captivating artwork
-                                    that celebrate the beauty of circles and lines. Our artistic journey is
-                                    fueled by a dedication to crafting meaningful experiences.</span></span>
-                            <div class="col-4 home-about-us-learn-btn">
+                                    imagination,
+                                    <br>
+                                    <br>
+                                    <span class="welcome-experiences-span">
+                                        &quot;we offer a range of immersive workshops, classes, and captivating artwork
+                                        that celebrate the beauty of circles and lines.</span> Our artistic journey is
+                                    fueled by a dedication to crafting meaningful experiences.</span>
+                                <br>
                                 <a class="home-about-us-learn-more-txt" href="whyus.html">
                                     Read more
                                 </a>
-                            </div>
+                            </span>
+
                         </div>
 
                     </div>
-                    <div class="col-5">
-                        <div class="image-container p-5 mb-5">
-                            <img class="dynamic-image" id="dynamic-image" src="./images/IMG-0753.JPG" alt="Dynamic Image">
+                    <div class="col-4">
+                        <div class="image-container p-5 mt-5">
+                            <img class="dynamic-image" data-bs-toggle="tooltip" data-bs-placement="bottom"
+                                data-bs-custom-class="tooltip-custom" data-bs-title="Art by Nithya S" id="dynamic-image"
+                                src="./images/IMG-0753-removebg-preview.png" alt="Dynamic Image">
                         </div>
+
                     </div>
                 </div>
             </div>
@@ -80,43 +90,57 @@
                     <div id="tabs" class="tabs-visible">
                         <nav>
                             <div class="nav nav-tabs nav-tab-dsg" id="nav-tab" role="tablist">
-                                <button class="nav-link active mandala-art-nav" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Mandala Art</button>
-                                <button class="nav-link bottle-art-nav" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Bottle
+                                <button class="nav-link active mandala-art-nav" id="nav-home-tab" data-bs-toggle="tab"
+                                    data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home"
+                                    aria-selected="true">Mandala Art</button>
+                                <button class="nav-link bottle-art-nav" id="nav-profile-tab" data-bs-toggle="tab"
+                                    data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile"
+                                    aria-selected="false">Bottle
                                     Painting</button>
-                                <button class="nav-link doodle" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Doodle</button>
+                                <button class="nav-link doodle" id="nav-contact-tab" data-bs-toggle="tab"
+                                    data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact"
+                                    aria-selected="false">Doodle</button>
                             </div>
                         </nav>
-                        <div class="tab-content nav-tab-dsg-doodle" id="nav-tabContent">
-                            <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                        <div class="tab-content nav-tab-dsg-doodle w-100" id="nav-tabContent">
+                            <div class="tab-pane fade show active" id="nav-home" role="tabpanel"
+                                aria-labelledby="nav-home-tab">
                                 <div class="mandala-art">
                                     <div class="mandala-art-header">
                                         <h3 class="p-4">Mandala Art Workshop:</h1>
-                                            <div class="mandala-art-list p-4">
+                                            <div class="mandala-art-list ms-1">
                                                 <ol>
                                                     <li>
-                                                        Discover Mandalas: Explore the history, symbolism, and significance of mandalas.
+                                                        Discover Mandalas: Explore the history, symbolism, and
+                                                        significance of mandalas.
                                                     </li>
                                                     <li>
-                                                        Create Harmonious Designs: Learn to design balanced and captivating mandalas.
+                                                        Create Harmonious Designs: Learn to design balanced and
+                                                        captivating mandalas.
                                                     </li>
                                                     <li>
-                                                        Color Your World: Dive into the world of colors and their emotional impact.
+                                                        Color Your World: Dive into the world of colors and their
+                                                        emotional impact.
                                                     </li>
                                                     <li>
-                                                        Personalize Your Mandalas: Craft mandalas with themes close to your heart.
+                                                        Personalize Your Mandalas: Craft mandalas with themes close to
+                                                        your heart.
                                                     </li>
                                                     <li>
-                                                        Meditative Creation: Experience the meditative and mindful aspect of mandala art.
+                                                        Meditative Creation: Experience the meditative and mindful
+                                                        aspect of mandala art.
                                                     </li>
                                                 </ol>
                                             </div>
                                             <div class="art-btns-mandala">
                                                 <div class="art-btns-mandala-1">
-                                                    <button class="join-us" type="button" data-bs-toggle="" data-bs-target="">One
+                                                    <button class="join-us" type="button" data-bs-toggle=""
+                                                        data-bs-target="">One
                                                         Day Workshop</button>
                                                 </div>
                                                 <div class="art-btns-mandala-1">
-                                                    <button class="join-us" type="button" data-bs-toggle="" data-bs-target="">40
+                                                    <button class="join-us" type="button" data-bs-toggle=""
+                                                        data-bs-target="">40
                                                         Hours Workshop
                                                     </button>
                                                 </div>
@@ -125,36 +149,44 @@
 
                                 </div>
                             </div>
-                            <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                            <div class="tab-pane fade" id="nav-profile" role="tabpanel"
+                                aria-labelledby="nav-profile-tab">
                                 <div class="bottle-mandala-art">
                                     <div class="mandala-art-header">
                                         <h3 class="p-4">Bottle Painting Workshop:</h1>
-                                            <div class="mandala-art-list p-4">
+                                            <div class="mandala-art-list ms-1">
                                                 <ol>
                                                     <li>
-                                                        Transforming Glass: Discover the art of transforming plain bottles into vibrant artworks.
+                                                        Transforming Glass: Discover the art of transforming plain
+                                                        bottles into vibrant artworks.
                                                     </li>
                                                     <li>
-                                                        Painting Techniques: Master techniques like layering, blending, and detailing.
+                                                        Painting Techniques: Master techniques like layering, blending,
+                                                        and detailing.
                                                     </li>
                                                     <li>
-                                                        Design Aesthetics: Explore themes and designs that suit bottle canvases.
+                                                        Design Aesthetics: Explore themes and designs that suit bottle
+                                                        canvases.
                                                     </li>
                                                     <li>
-                                                        Light and Shadow: Learn to play with light and shadow for a dynamic effect.
+                                                        Light and Shadow: Learn to play with light and shadow for a
+                                                        dynamic effect.
                                                     </li>
                                                     <li>
-                                                        Functional Art: Create stunning painted bottles that can be used as decor or gifts.
+                                                        Functional Art: Create stunning painted bottles that can be used
+                                                        as decor or gifts.
                                                     </li>
                                                 </ol>
                                             </div>
                                             <div class="art-btns-mandala">
                                                 <div class="art-btns-mandala-1">
-                                                    <button class="join-us" type="button" data-bs-toggle="" data-bs-target="">One
+                                                    <button class="join-us" type="button" data-bs-toggle=""
+                                                        data-bs-target="">One
                                                         Day Workshop</button>
                                                 </div>
                                                 <div class="art-btns-mandala-1">
-                                                    <button class="join-us" type="button" data-bs-toggle="" data-bs-target="">40
+                                                    <button class="join-us" type="button" data-bs-toggle=""
+                                                        data-bs-target="">40
                                                         Hours Workshop
                                                     </button>
                                                 </div>
@@ -163,36 +195,44 @@
 
                                 </div>
                             </div>
-                            <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+                            <div class="tab-pane fade" id="nav-contact" role="tabpanel"
+                                aria-labelledby="nav-contact-tab">
                                 <div class="doodle-mandala-art">
                                     <div class="mandala-art-header">
                                         <h3 class="p-4">Doodle Art Workshop:</h1>
-                                            <div class="mandala-art-list p-4">
+                                            <div class="mandala-art-list ms-1">
                                                 <ol>
                                                     <li>
-                                                        Master the Basics: Learn fundamental doodle patterns and techniques.
+                                                        Master the Basics: Learn fundamental doodle patterns and
+                                                        techniques.
                                                     </li>
                                                     <li>
-                                                        Unlock Your Creativity: Create personalized and intricate doodle designs.
+                                                        Unlock Your Creativity: Create personalized and intricate doodle
+                                                        designs.
                                                     </li>
                                                     <li>
-                                                        Integrate Words and Symbols: Seamlessly blend words and quotes into your doodles.
+                                                        Integrate Words and Symbols: Seamlessly blend words and quotes
+                                                        into your doodles.
                                                     </li>
                                                     <li>
-                                                        Explore Themes: Infuse your doodles with emotions, nature, and more.
+                                                        Explore Themes: Infuse your doodles with emotions, nature, and
+                                                        more.
                                                     </li>
                                                     <li>
-                                                        Doodle Challenges: Overcome creative blocks through exhilarating challenges.
+                                                        Doodle Challenges: Overcome creative blocks through exhilarating
+                                                        challenges.
                                                     </li>
                                                 </ol>
                                             </div>
                                             <div class="art-btns-mandala">
                                                 <div class="art-btns-mandala-1">
-                                                    <button class="join-us" type="button" data-bs-toggle="" data-bs-target="">One
+                                                    <button class="join-us" type="button" data-bs-toggle=""
+                                                        data-bs-target="">One
                                                         Day Workshop</button>
                                                 </div>
                                                 <div class="art-btns-mandala-1">
-                                                    <button class="join-us" type="button" data-bs-toggle="" data-bs-target="">40
+                                                    <button class="join-us" type="button" data-bs-toggle=""
+                                                        data-bs-target="">40
                                                         Hours Workshop
                                                     </button>
                                                 </div>
@@ -210,14 +250,16 @@
 
             <div class="row pre-bg">
                 <div class="col-6">
-                    <div class="photo-grid ">
+                    <div class="photo-grid">
                         <!-- Add photos here -->
-                        <img class="images" id="dynamic-image" src="./images/loading-img-1.png" alt="Dynamic Image">
-                        <img class="images" id="dynamic-image" src="./images/whyus-2.png" alt="Dynamic Image">
-                        <img class="images" id="dynamic-image" src="./images/loading-img-3.png" alt="Dynamic Image">
-                        <img class="images" id="dynamic-image" src="./images/homeart.png" alt="Dynamic Image">
-                        <img class="images" id="dynamic-image" src="./images/homeart.png" alt="Dynamic Image">
-                        <img class="images" id="dynamic-image" src="./images/homeart.png" alt="Dynamic Image">
+                        <img class="images" id="dynamic-image" src="./images/IMG-0753-removebg-preview.png"
+                            alt="Dynamic Image">
+                        <img class="images" id="dynamic-image" src="./images/IMG_4728.JPG" alt="Dynamic Image">
+                        <img class="images" id="dynamic-image" src="./images/IMG-0747.JPG" alt="Dynamic Image">
+                        <img class="images" id="dynamic-image" src="./images/IMG-0745.JPG" alt="Dynamic Image">
+                        <img class="images" id="dynamic-image" src="./images/IMG-0012.JPG" alt="Dynamic Image">
+                        <img class="images" id="dynamic-image" src="./images/IMG-0011-removebg-preview.png"
+                            alt="Dynamic Image">
                         <img class="images" id="dynamic-image" src="./images/homeart.png" alt="Dynamic Image">
                         <img class="images" id="dynamic-image" src="./images/homeart.png" alt="Dynamic Image">
                         <img class="images" id="dynamic-image" src="./images/homeart.png" alt="Dynamic Image">
@@ -234,7 +276,8 @@
                 </div>
                 <div class="col-6">
                     <div class="photos-collection-right">
-                        <img class="photos-collection-image" src="./images/homeart.png" id="selected-image" alt="Dynamic Image">
+                        <img class="photos-collection-image" src="./images/homeart.png" id="selected-image"
+                            alt="Dynamic Image">
                     </div>
                 </div>
                 <br>
@@ -242,7 +285,7 @@
             </div>
             <div class="col-12 mt-3">
                 <div class="workshop-btn-2">
-                    <div class="workshop">See more pics -&gt;</div>
+                    <a class="workshop" href="./ourwork.html">See more pics -&gt;</a>
                 </div>
             </div>
             <br>
@@ -282,6 +325,8 @@
 
     <script src="./js/common.js"></script>
     <script src="./js/jQuery/jquery.3.7.0.js"></script>
+    <script src="./js/popper/popper.js"></script>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <!-- <script src="./js/jQuery/jquery-3.3.1.slim.min.js"></script> -->
     <script src="./js/bootstrap/js/bootstrap.bundle.js"></script>
@@ -291,7 +336,7 @@
         function includeHTML() {
             var element = document.getElementById("review-content");
             var xhr = new XMLHttpRequest();
-            xhr.onreadystatechange = function() {
+            xhr.onreadystatechange = function () {
                 if (xhr.readyState === 4 && xhr.status === 200) {
                     element.innerHTML = xhr.responseText;
                 }
@@ -301,7 +346,7 @@
 
             var element = document.getElementById("review-content");
             var xhr = new XMLHttpRequest();
-            xhr.onreadystatechange = function() {
+            xhr.onreadystatechange = function () {
                 if (xhr.readyState === 4 && xhr.status === 200) {
                     element.innerHTML = xhr.responseText;
                 }
@@ -314,12 +359,18 @@
         includeHTML();
 
 
-        $(document).ready(function() {
+        $(document).ready(function () {
             $("#header-file").load("header.html");
 
 
             $("#mandala-modal").load("mandala-art-model.html");
 
+        });
+
+        // tool tips
+
+        $(function () {
+            $('[data-bs-toggle="tooltip"]').tooltip();
         });
     </script>
 </body>

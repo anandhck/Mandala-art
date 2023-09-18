@@ -7,40 +7,69 @@
     <title>Document</title>
     <link rel="stylesheet" href="./css/whyus.css">
     <link rel="stylesheet" href="./css/review.css">
-    <link href="https://fonts.googleapis.com/css2?family=Alice&family=Metal+Mania&family=Kalam&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Alice&family=Metal+Mania&family=Kalam&display=swap"
+        rel="stylesheet">
     <!-- <link rel="stylesheet" type="text/stylesheet" src="/public/resources/js/bootstrap/css/bootstrap.min.css"> -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 
-<body>
+<body class="body-margin-1">
     <div class="container body-margin">
         <div id="header-file"></div>
+        <a class="join-us-tittle"></a>Join Us</a>
         <div class="div-content">
             <div class="col-12 join-us-header">
-                <div class="col-6 para-box p-3">
-                    <p class="p-style">
-                        Welcome to Circheal, where the mesmerizing world of mandala art and playful doodles come together to ignite creativity and inspire connections. With a passion for intricate designs and boundless imagination, <br /><br /> we offer
-                        a range of immersive workshops, classes, and captivating artwork that celebrate the beauty of circles and lines. Our artistic journey is fueled by a dedication to crafting meaningful experiences
+                <div class="col-8 para-box p-3">
+                    <p class="p-style mt-5">
+                        <span><span class="welcome-experiences-span">
+                                &quot;Welcome to Circheal, where the mesmerizing world of </span><span
+                                class="welcome-experiences-span2">mandala
+                                art</span><span class="welcome-experiences-span3">
+                                and playful doodles come together to ignite creativity and inspire
+                                connections. With a passion for intricate designs and boundless
+                                imagination,
+                                <br>
+                                <br>
+                                <span class="welcome-experiences-span">
+                                    &quot;we offer a range of immersive workshops, classes, and captivating artwork
+                                    that celebrate the beauty of circles and lines.</span> Our artistic journey is
+                                fueled by a dedication to crafting meaningful experiences.</span>
+                            <br>
+
+                        </span>
                     </p>
-
-
                 </div>
-                <div class="col-6 ">
+                <div class="col-4">
                     <img class="img-style" src="./images/whyus-1.png" alt="">
 
                 </div>
             </div>
             <div class="col-12 join-us-header">
-                <div class="col-6 ">
+                <div class="col-4">
                     <img class="img-style-2" src="./images/whyus-2.png" alt="">
 
                 </div>
-                <div class="col-6 para-box p-3">
-                    <p class="p-style">
-                        Explore the fusion of mandala and doodle art, as we guide you through workshop designed to unlock your artistic potential. <br /><br /> From the delicate strokes of a pen to the vibrant hues of color, we believe in the power of
-                        self-expression and the magic that unfolds within every curve. Join us on this artistic odyssey, where youll discover the art of creating beauty from lines, shapes, and colors. <br /><br /> Dive into a world where creativity knows
-                        no boundaries, and where each stroke of the pen becomes a gateway to endless possibilities. Lets create, connect, and draw circles of inspiration together.
+                <div class="col-8 para-box p-3">
+                    <p class="p-style mt-4">
+                        <span class="welcome-experiences-span">
+                            &quot;Explore the fusion of mandala and doodle art, as we guide you through <span
+                                class="welcome-experiences-span2">workshop</span> designed to unlock your artistic
+                            potential. </span>
+                        <br>
+                        <span class="welcome-experiences-span">
+                            From the delicate strokes of a pen to the vibrant
+                            hues of color, we believe in the power of
+                            self-expression and the magic that unfolds within every curve.<span
+                                class="welcome-experiences-span2">Join us</span> on this artistic odyssey, where youll
+                            discover the art of creating beauty from lines, shapes, and colors. </span>
+                        <br>
+                        <span class="welcome-experiences-span">
+                            Dive into a world where creativity knows
+                            no boundaries, and where each stroke of the pen becomes a gateway to endless possibilities.
+                            Lets
+                            create, connect, and draw circles of inspiration together.</span> </span>
+
                     </p>
 
                 </div>
@@ -59,7 +88,8 @@
                             Passionate instructors <br />who nurture creativity &amp; growth
                         </div>
                         <p class="header-value mt-2">
-                            Our talented instructors are passionate about art and guiding students on their creative journey. Their enthusiasm is contagious!
+                            Our talented instructors are passionate about art and guiding students on their creative
+                            journey. Their enthusiasm is contagious!
                         </p>
 
 
@@ -69,7 +99,8 @@
                             Customized retreats &amp; art therapy programs
                         </div>
                         <p class="header-value-2 mt-2">
-                            In addition to group classes, we craft customized art retreats and art therapy plans tailored to your needs.
+                            In addition to group classes, we craft customized art retreats and art therapy plans
+                            tailored to your needs.
                         </p>
                     </div>
                 </div>
@@ -80,7 +111,8 @@
                             Calm, welcoming studio environment
                         </div>
                         <p class="header-value mt-2 ">
-                            Our talented instructors are passionate about art and guiding students on their creative journey. Their enthusiasm is contagious!
+                            Our talented instructors are passionate about art and guiding students on their creative
+                            journey. Their enthusiasm is contagious!
                         </p>
 
 
@@ -101,7 +133,8 @@
                             Small class sizes for individual attention
                         </div>
                         <p class="header-value mt-2">
-                            We keep our class sizes small so students can connect with instructors and get personalized guidance.
+                            We keep our class sizes small so students can connect with instructors and get personalized
+                            guidance.
                         </p>
 
 
@@ -169,7 +202,7 @@
         function includeHTML() {
             var element = document.getElementById("review-content");
             var xhr = new XMLHttpRequest();
-            xhr.onreadystatechange = function() {
+            xhr.onreadystatechange = function () {
                 if (xhr.readyState === 4 && xhr.status === 200) {
                     element.innerHTML = xhr.responseText;
                 }
@@ -181,7 +214,7 @@
         // Call the function to include the HTML content
         includeHTML();
 
-        $(document).ready(function() {
+        $(document).ready(function () {
             $("#header-file").load("header.html");
             $("#mandala-modal").load("mandala-art-model.html");
         });

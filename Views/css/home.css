@@ -1,26 +1,39 @@
         /* header box */
         
-        .about-us {
-            position: relative;
-            background-color: #fcf4fa;
-            margin-top: 30px;
+        body {
+            background: rgb(184, 199, 208);
+            background: -moz-linear-gradient(243deg, rgba(184, 199, 208, 1) 15%, rgba(143, 207, 216, 1) 56%, rgba(230, 197, 194, 1) 100%);
+            background: -webkit-linear-gradient(243deg, rgba(184, 199, 208, 1) 15%, rgba(143, 207, 216, 1) 56%, rgba(230, 197, 194, 1) 100%);
+            background: linear-gradient(243deg, rgba(184, 199, 208, 1) 15%, rgba(143, 207, 216, 1) 56%, rgba(230, 197, 194, 1) 100%);
+            filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#b8c7d0", endColorstr="#e6c5c2", GradientType=1);
         }
         
-        .about-us::before {
+        .about-us {
+            position: relative;
+            /* background-color: #fcf4fa; */
+            margin-top: 30px;
+            max-height: 500px;
+        }
+        
+        .about-us ::before {
+            opacity: 0.8;
+        }
+        
+        .bg-img-div::before {
             content: "";
             background-image: url('../images/FLOWER-MOON-MANDALA-removebg-preview.png');
             /* Set your background image URL */
-            background-size: 40rem;
-            background-position: left top 100px;
+            background-size: cover;
+            background-position: left top 250px;
             background-attachment: scroll;
             background-repeat: no-repeat;
             opacity: 0.1;
             /* Adjust the opacity value (0.2 = 20%) */
             position: absolute;
             top: 0;
-            left: 0;
+            left: 80px;
             width: 100%;
-            height: 100%;
+            height: auto;
             /* z-index: -1; */
         }
         
@@ -60,32 +73,23 @@
             background-color: #fcf4fa;
         }
         
-        .con-bg {
-            background-color: bisque;
-            /* opacity: ; */
-        }
-        
-        body {
-            background-color: #72dcab !important;
-            /* opacity: 0.8; */
-        }
-        
         .welcome-experiences-span {
             color: #000000;
             font-family: "Alice", sans-serif;
-            font-size: 2vw;
+            font-size: 1.5vw;
+            margin-left: 94px;
         }
         
         .welcome-experiences-span2 {
             color: #e42e2e;
             font-family: "Alice", sans-serif;
-            font-size: 2vw;
+            font-size: 1.5vw;
         }
         
         .welcome-experiences-span3 {
             color: #000000;
             font-family: "Alice", sans-serif;
-            font-size: 2vw;
+            font-size: 1.5vw;
         }
         
         .book-ur-slot {
@@ -105,7 +109,9 @@
         .dynamic-image {
             border-radius: 41px;
             width: 100%;
-            height: auto;
+            max-height: 100%;
+            /* height: auto; */
+            overflow: hidden;
         }
         
         .home-about-us-learn-btn {
@@ -116,7 +122,7 @@
             color: #000000;
             text-align: left;
             font-family: "Alice", sans-serif;
-            font-size: 2vw;
+            font-size: 1.5vw;
             position: relative;
             text-decoration: none;
             /* header box end */
@@ -124,7 +130,7 @@
         
         .dynamic-image {
             /* ilter: drop-shadow(10px 8px 6px black); */
-            box-shadow: 1px 1px 0px #999, 2px 2px 0px #999, 3px 3px 0px #999, 4px 4px 0px #999, 5px 5px 0px #999, 6px 6px 0px #999;
+            /* box-shadow: 1px 1px 0px #999, 2px 2px 0px #999, 3px 3px 0px #999, 4px 4px 0px #999, 5px 5px 0px #999, 6px 6px 0px #999; */
         }
         
         .photo-grid .col-6 {
@@ -132,9 +138,9 @@
         }
         
         .photo-grid img {
-            max-width: 100%;
-            height: 129px;
-            width: 181px;
+            /* max-width: 100%; */
+            height: auto;
+            width: 200px;
             overflow: auto;
         }
         
@@ -178,8 +184,8 @@
             border-style: solid;
             border-image-slice: 1;
             margin: 10px;
-            width: 100%;
-            height: auto;
+            width: 300px;
+            height: 300px;
             border: none !important;
             box-shadow: -4px 4px 8px 0px rgba(0, 0, 0, 0.75);
         }
@@ -308,6 +314,17 @@
             /* Center text horizontally */
         }
         
+        .tooltip-custom {
+            background-color: #e9c1c1 transparent;
+            border-radius: 12px;
+            /* border-style: solid; */
+            /* border-color: #000000; */
+            /* border-width: 2px; */
+            position: relative;
+            padding: 10px;
+            text-decoration: none;
+        }
+        
         #tabs .nav-tabs {
             border-bottom: none;
             /* or border-bottom: 0; */
@@ -321,3 +338,26 @@
                 transform: translateX(-100%);
             }
         }
+        /* bg art */
+        
+        .pre-bg ::-webkit-scrollbar {
+            width: 10px;
+        }
+        /* Track */
+        
+        .pre-bg::-webkit-scrollbar-track {
+            box-shadow: inset 0 0 5px grey;
+            border-radius: 10px;
+        }
+        /* Handle */
+        
+        .pre-bg ::-webkit-scrollbar-thumb {
+            background: rgb(16, 205, 234);
+            border-radius: 10px;
+        }
+        /* Handle on hover */
+        
+        .pre-bg ::-webkit-scrollbar-thumb:hover {
+            background: rgb(16, 205, 234);
+        }
+        /* bg art */

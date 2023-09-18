@@ -14,15 +14,17 @@
 </head>
 
 <body>
+    <div id="header-file"></div>
     <div class="our-work-tittle">
         Digital and Hand made Arts<br />Click on the image to view in big size.
     </div>
     <div class="centered-container">
         <div class="photos-collection">
             <div class="col-6">
-                <div class="photo-grid">
+                <div class="photo-grid" data-simplebar>
                     <!-- Add photos here -->
-                    <img class="images" id="dynamic-image" src="./images/loading-img-1.png" alt="Dynamic Image">
+                    <img class="images" id="dynamic-image" src="./images/IMG-0753-removebg-preview.png"
+                        alt="Dynamic Image">
                     <img class="images" id="dynamic-image" src="./images/whyus-2.png" alt="Dynamic Image">
                     <img class="images" id="dynamic-image" src="./images/loading-img-3.png" alt="Dynamic Image">
                     <img class="images" id="dynamic-image" src="./images/homeart.png" alt="Dynamic Image">
@@ -54,9 +56,15 @@
 
     <script src="./js/common.js"></script>
     <script src="./js/jQuery/jquery.3.7.0.js"></script>
-    <script src="./js/jQuery/jquery-3.3.1.slim.min.js"></script>
+    <!-- <script src="./js/jQuery/jquery-3.3.1.slim.min.js"></script> -->
     <script src="./js/bootstrap/js/bootstrap.bundle.js"></script>
     <script src="./js/bootstrap/js/bootstrap.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $("#header-file").load("header.html");
+        });
+    </script>
 </body>
 
 </html>

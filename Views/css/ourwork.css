@@ -1,3 +1,11 @@
+body {
+    background: rgb(184, 199, 208);
+    background: -moz-linear-gradient(243deg, rgba(184, 199, 208, 1) 15%, rgba(143, 207, 216, 1) 56%, rgba(230, 197, 194, 1) 100%);
+    background: -webkit-linear-gradient(243deg, rgba(184, 199, 208, 1) 15%, rgba(143, 207, 216, 1) 56%, rgba(230, 197, 194, 1) 100%);
+    background: linear-gradient(243deg, rgba(184, 199, 208, 1) 15%, rgba(143, 207, 216, 1) 56%, rgba(230, 197, 194, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#b8c7d0", endColorstr="#e6c5c2", GradientType=1);
+}
+
 .our-work-body {
     display: flex;
     justify-content: center;
@@ -90,7 +98,7 @@ h1 {
 
 #pagination {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     margin-top: 20px;
 }
 
@@ -154,3 +162,102 @@ h1 {
 
 
 /*  */
+
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700");
+.card div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.btn {
+    margin-bottom: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.btn:last-child {
+    margin-right: 0;
+}
+
+@media screen and (min-width: 960px) {
+    .card {
+        width: calc(960px - 4rem);
+    }
+}
+
+
+/******************************************************************************/
+
+
+/* STYLES RELATED TO EXPERIMENT BUTTONS                                       */
+
+
+/******************************************************************************/
+
+.btn {
+    --color: #000000;
+    --background-color: #d8d8d8;
+    --border-color: darken(#d8d8d8, 7.5%);
+    color: var(--color);
+    font-family: inherit;
+    background-color: var(--background-color);
+    padding: 0.6rem 0.9rem;
+    border: solid 1px var(--border-color);
+    outline: none;
+    position: relative;
+    border-radius: 0.5rem;
+    user-select: none;
+    box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.4), 0 -0.3rem 0.6rem rgba(0, 0, 0, 0.2) inset;
+    transition: box-shadow 64ms ease-out;
+}
+
+.btn:after {
+    content: "";
+    background-color: #ffffff;
+    width: 75%;
+    height: 12.5%;
+    position: absolute;
+    top: 0.15rem;
+    left: 12.5%;
+    border-radius: 50%;
+    filter: blur(0.15rem);
+    transition: opacity 64ms ease-out;
+}
+
+.btn:active {
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0.4), 0 0.4rem 1rem rgba(0, 0, 0, 0.3) inset;
+}
+
+.btn:active:after {
+    opacity: 0;
+}
+
+.btn-info {
+    --color: #b9ce1e;
+    --background-color: #0091ea;
+    --border-color: #0079c4;
+}
+
+.btn-info:active {
+    --color: #0bf254;
+}
+
+.btn-success {
+    --color: #ffffff;
+    --background-color: #2cac8c;
+    --border-color: #2cac8c;
+}
+
+.view-btns {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+/* navbtns */
+
+.nav-btns {
+    display: flex;
+    justify-content: center;
+}

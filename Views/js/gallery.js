@@ -80,10 +80,11 @@ function resizeGallery(imagesPerRow) {
     const gap = 10; // Adjust the gap as needed
 
     // Calculate the width for each grid item
-    const itemWidth = `calc((100% - ${gap * (imagesPerRow - 1)}px) / ${imagesPerRow})`;
+    // const itemWidth = `calc((100% - ${gap * (imagesPerRow - 1)}px) / ${imagesPerRow})`;
+    const itemWidth = "183px";
 
     // Update grid styles
-    gallery.style.width = '800px';
+    gallery.style.width = '100%';
     gallery.style.height = 'auto';
     // Set the desired width
     gallery.style.display = 'grid';
