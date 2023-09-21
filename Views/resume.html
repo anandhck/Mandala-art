@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>www.charmzztechs.com</title>
+    <!-- Include the OverlayScrollbars CSS file -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="./css/resume.css">
+</head>
+
+<body>
+    <div id="navbar-load"></div>
+    <div class="stars">
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+    </div>
+    <div class="container-1">
+        <div class="row">
+            <div class="col-md-7 col-lg-7">
+                <form class="bb">
+                    <div class="segment">
+                        <h1>Upload Resume</h1>
+                    </div>
+
+                    <!-- Page 1 -->
+                    <div class="page page1">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <label>First Name *</label>
+                                <input type="text" placeholder="First Name" style="background-color: #ebecf0;
+                                text-shadow: 1px 1px 0 #fff;" />
+                            </div>
+                            <div class="col-md-4">
+                                <label>Middle Name</label>
+                                <input type="text" placeholder="Middle Name" />
+                            </div>
+                            <div class="col-md-4">
+                                <label>Surname *</label>
+                                <input type="text" placeholder="Surname" />
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-4">
+                                <label>Date of Birth</label>
+                                <select id="dobDay" name="dobDay"></select>
+                                <select id="dobMonth" name="dobMonth"></select>
+                                <select id="dobYear" name="dobYear"></select>
+
+                            </div>
+                            <table id="dateTable"></table>
+                            <div class="col-md-4">
+                                <label>Gender</label>
+                                <select>
+                                    <option value="">Select Gender</option>
+                                    <option value="male">Male</option>
+                                    <option value="female">Female</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Page 2 -->
+                    <div class="page page2">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <label>Native Languages + Languages Known</label>
+                                <div style="padding-top: 10px;">
+                                    <select class="languages-dropdown text-center" onchange="toggleInputField(this)">
+
+                                        <option value="native">Native Language</option>
+                                        <option value="known">Languages Known</option>
+                                    </select>
+                                </div>
+                                <br>
+                                <div style="padding-top: 10px;">
+                                    <input class="languages-input" id="nativeLanguageInput" type="text" placeholder="Enter Native Language" style="display: none;" />
+                                    <input class="languages-input" id="languagesKnownInput" type="text" placeholder="Enter Languages Known" style="display: none;" />
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <label>Address (as per ID Proof)</label>
+                                <input type="text" placeholder="Address" />
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <label>Are you a Fresher or Experienced?</label>
+                                <select onchange="toggleExperienceFields(this)">
+                                    <option value="">Select</option>
+                                    <option value="fresher">Fresher</option>
+                                    <option value="experienced">Experienced</option>
+                                </select>
+                            </div>
+
+                            <div id="fresherFields" style="display: none;">
+                                <div class="col-md-6">
+                                    <label>Year of Passing</label>
+                                    <select>
+                                        <option value="">Select Year</option>
+                                        <option value="2015">2015</option>
+                                        <option value="2016">2016</option>
+                                        <option value="2017">2017</option>
+                                        <option value="2018">2018</option>
+                                        <option value="2019">2019</option>
+                                        <option value="2020">2020</option>
+                                        <option value="2021">2021</option>
+                                        <option value="2022">2022</option>
+                                        <option value="2023">2023</option>
+                                        <option value="2024">2024</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div id="experiencedFields" style="display: none;">
+                                <div class="col text-end">
+                                    <label>Name</label>
+                                    <input type="text" placeholder=" Name">
+                                </div>
+                                <div class="col text-end">
+                                    <label>Location</label>
+                                    <input type="text" placeholder="Location">
+                                </div>
+                                <div class="col ">
+                                    <label>Duration of Experience</label>
+                                    <select>
+                                        <option value="">Select Months</option>
+                                        <option value="1">1 Month</option>
+                                        <option value="2">2 Months</option>
+                                        <option value="3">3 Months</option>
+                                        <!-- ... and so on up to 11 months -->
+                                    </select>
+                                    <select>
+                                        <option value="">Select Years</option>
+                                        <option value="1">1 Year</option>
+                                        <option value="2">2 Years</option>
+                                        <option value="3">3 Years</option>
+                                        <!-- ... and so on up to 20 years -->
+                                    </select>
+                                </div>
+                                <div class="col">
+                                    <label>Job Designation</label>
+                                    <input type="text" placeholder="Job Designation">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <label>Qualification</label>
+                                <input type="text" placeholder="Qualification" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Page 3 -->
+                    <div class="page page3">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <label>Programming Languages Known</label>
+                                <select>
+                                    <option value="">Select a programming language</option>
+                                    <option value="java">Java</option>
+                                    <option value="python">Python</option>
+                                    <option value="csharp">C#</option>
+                                    <option value="php">PHP</option>
+                                    <option value="ruby">Ruby</option>
+                                    <option value="javascript">JavaScript</option>
+                                    <option value="scala">Scala</option>
+                                    <option value="go">Go</option>
+                                    <option value="rust">Rust</option>
+                                    <option value="swift">Swift</option>
+                                    <option value="typescript">TypeScript</option>
+                                    <option value="nodejs">Node.js</option>
+                                    <option value="perl">Perl</option>
+                                    <option value="lua">Lua</option>
+                                    <option value="groovy">Groovy</option>
+                                    <option value="kotlin">Kotlin</option>
+                                    <option value="r">R</option>
+                                </select>
+                            </div>
+                            <div class="col-md-6">
+                                <label>Projects Done</label>
+                                <input type="text" placeholder="Projects Done" />
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <label>Certificates and Awards</label>
+                                <input type="text" placeholder="Certificates and Awards" />
+                            </div>
+                            <div class="col-md-6">
+                                <label>Area of Interest</label>
+                                <input type="text" placeholder="Area of Interest" />
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <label>Role Desired / Future Career Goal</label>
+                                <input type="text" placeholder="Role Desired / Future Career Goal" />
+                            </div>
+                            <div class="col-md-6">
+                                <label>Personalized Message</label>
+                                <textarea placeholder="Personalized Message"></textarea>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <label>Upload Resume</label>
+                                <input type="file" name="resume" />
+                            </div>
+                            <div class="col-md-6">
+                                <label>Who referred us?</label>
+                                <input type="text" placeholder="Who referred us?" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="action">
+                                <button class="blue prev" type="button" style="float: left;"><i
+                                        class="icon ion-ios-arrow-back"></i> Prev</button>
+                                <button class="blue next" type="button" style="float: right;">Next <i
+                                        class="icon ion-ios-arrow-forward"></i></button>
+                                <div class="col-md-6 text-center " style>
+                                    <button class="red submit last-page" type="button"><i class="icon ion-md-lock"></i>
+                                        Submit</button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div id="footer-load"></div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+
+    <script>
+        window.addEventListener('DOMContentLoaded', function() {
+            var navbarDiv = document.getElementById('navbar-load');
+            var footerDiv = document.getElementById('footer-load');
+
+            var navbarXHR = new XMLHttpRequest();
+            navbarXHR.open('GET', 'navbar.html', true);
+            navbarXHR.onreadystatechange = function() {
+                if (navbarXHR.readyState === 4 && navbarXHR.status === 200) {
+                    navbarDiv.innerHTML = navbarXHR.responseText;
+                }
+            };
+            navbarXHR.send();
+
+            var footerXHR = new XMLHttpRequest();
+            footerXHR.open('GET', 'footer.html', true);
+            footerXHR.onreadystatechange = function() {
+                if (footerXHR.readyState === 4 && footerXHR.status === 200) {
+                    footerDiv.innerHTML = footerXHR.responseText;
+                }
+            };
+            footerXHR.send();
+        });
+        $(document).ready(function() {
+            var currentPage = 1; // Track the current page
+
+            $(".page").hide();
+            $(".page1").show();
+            $(".prev").hide();
+            $(".next").show();
+            $(".submit").hide();
+
+            $(".next").click(function() {
+                $(".page" + currentPage).hide();
+                currentPage++;
+                $(".page" + currentPage).show();
+                $(".prev").show();
+
+                if (currentPage === 3) {
+                    $(".next").hide();
+                    $(".submit").show();
+                }
+            });
+
+            $(".prev").click(function() {
+                $(".page" + currentPage).hide();
+                currentPage--;
+                $(".page" + currentPage).show();
+                $(".next").show();
+                $(".submit").hide();
+
+                if (currentPage === 1) {
+                    $(".prev").hide();
+                }
+            });
+
+            $(".last-page").click(function() {
+                // Perform form submission or validation logic here
+                // This button will only be visible on the last page of the form
+            });
+        });
+
+        //date table
+        // JavaScript code to populate date options dynamically
+        var dobDaySelect = document.getElementById("dobDay");
+        var dobMonthSelect = document.getElementById("dobMonth");
+        var dobYearSelect = document.getElementById("dobYear");
+
+        // Populate day options
+        for (var i = 1; i <= 31; i++) {
+            var option = document.createElement("option");
+            option.text = i;
+            dobDaySelect.add(option);
+        }
+
+        // Populate month options
+        var months = [
+            "January", "February", "March", "April", "May", "June",
+            "July", "August", "September", "October", "November", "December"
+        ];
+        for (var i = 0; i < months.length; i++) {
+            var option = document.createElement("option");
+            option.text = months[i];
+            dobMonthSelect.add(option);
+        }
+
+        // Populate year options (adjust the range as needed)
+        var currentYear = new Date().getFullYear();
+        for (var i = currentYear; i >= currentYear - 100; i--) {
+            var option = document.createElement("option");
+            option.text = i;
+            dobYearSelect.add(option);
+
+
+        }
+
+        function toggleInputField(selectElement) {
+            var nativeLanguageInput = document.getElementById('nativeLanguageInput');
+            var languagesKnownInput = document.getElementById('languagesKnownInput');
+
+            if (selectElement.value === 'native') {
+                nativeLanguageInput.style.display = 'block';
+                languagesKnownInput.style.display = 'none';
+            } else if (selectElement.value === 'known') {
+                nativeLanguageInput.style.display = 'none';
+                languagesKnownInput.style.display = 'block';
+            } else {
+                nativeLanguageInput.style.display = 'none';
+                languagesKnownInput.style.display = 'none';
+            }
+        }
+
+
+        function toggleExperienceFields(selectElement) {
+            var fresherFields = document.getElementById('fresherFields');
+            var experiencedFields = document.getElementById('experiencedFields');
+
+            if (selectElement.value === 'fresher') {
+                fresherFields.style.display = 'block';
+                experiencedFields.style.display = 'none';
+            } else if (selectElement.value === 'experienced') {
+                fresherFields.style.display = 'none';
+                experiencedFields.style.display = 'block';
+            } else {
+                fresherFields.style.display = 'none';
+                experiencedFields.style.display = 'none';
+            }
+        }
+    </script>
+
+</body>
+
+</html>

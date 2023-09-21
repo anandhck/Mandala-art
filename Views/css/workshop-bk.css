@@ -1,0 +1,3076 @@
+.workshop {
+    background-color: #000000;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.frame-2 {
+    position: relative;
+    width: 1622px;
+    height: 526px;
+    background-color: darkgoldenrod;
+    border-radius: 15px;
+}
+
+.workshop .div {
+    background-color: #000000;
+    overflow: hidden;
+    width: 1728px;
+    height: 7613px;
+    position: relative;
+}
+
+.greenleaf {
+    width: 237px;
+    height: 526px;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.workshop .overlap {
+    position: absolute;
+    width: 1762px;
+    height: 7649px;
+    top: 0;
+    left: -20px;
+}
+
+.workshop .rectangle {
+    position: absolute;
+    width: 1728px;
+    height: 1442px;
+    top: 6171px;
+    left: 20px;
+    object-fit: cover;
+}
+
+.workshop .text-wrapper {
+    position: absolute;
+    top: 3065px;
+    left: 171px;
+    -webkit-text-stroke: 1px #000000;
+    font-family: "Kalam-Bold", Helvetica;
+    font-weight: 700;
+    color: #00fb47;
+    font-size: 32px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+
+/*frame one background image*/
+
+.workshop .malcolm-lightbody {
+    position: absolute;
+    width: 1728px;
+    height: 957px;
+    top: 0;
+    left: 20px;
+    object-fit: cover;
+    /* Add the blur effect */
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+}
+
+.workshop .katarzyna-pypla {
+    position: absolute;
+    width: 1728px;
+    height: 575px;
+    top: 907px;
+    left: 20px;
+    object-fit: cover;
+    /* Add the blur effect */
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+}
+
+.workshop .den-harrson {
+    position: absolute;
+    width: 1728px;
+    height: 815px;
+    top: 1447px;
+    left: 20px;
+    object-fit: cover;
+    /* Add the blur effect */
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+}
+
+.workshop .element {
+    position: absolute;
+    width: 1728px;
+    height: 742px;
+    top: 2232px;
+    left: 20px;
+    object-fit: cover;
+    /* Add the blur effect */
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+}
+
+.workshop .linda-xu {
+    position: absolute;
+    width: 1728px;
+    height: 1165px;
+    top: 2944px;
+    left: 20px;
+    object-fit: cover;
+    /* Add the blur effect */
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+}
+
+.workshop .rectangle-2 {
+    position: absolute;
+    width: 1120px;
+    height: 474px;
+    top: 957px;
+    left: 90px;
+    background-color: #ffffff94;
+    box-shadow: -8px 8px 16px #000000a6;
+}
+
+.workshop .first-collage {
+    position: absolute;
+    width: 1379px;
+    height: 516px;
+    top: 368px;
+    left: 195px;
+}
+
+.workshop .overlap-group {
+    position: relative;
+    width: 1377px;
+    height: 516px;
+}
+
+.workshop .dan-cristian-padure {
+    position: absolute;
+    width: 235px;
+    height: 223px;
+    top: 0;
+    left: 413px;
+    object-fit: cover;
+}
+
+.workshop .img {
+    position: absolute;
+    width: 623px;
+    height: 293px;
+    top: 223px;
+    left: 413px;
+    object-fit: cover;
+}
+
+.workshop .katarzyna-pypla-2 {
+    position: absolute;
+    width: 392px;
+    height: 221px;
+    top: 2px;
+    left: 644px;
+    object-fit: cover;
+}
+
+.workshop .swati-h-das {
+    position: absolute;
+    width: 413px;
+    height: 277px;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+
+.workshop .den-harrson1 {
+    position: absolute;
+    width: 623px;
+    height: 293px;
+    top: 223px;
+    left: 413px;
+    object-fit: cover;
+}
+
+.workshop .customerbox {
+    position: absolute;
+    width: 342px;
+    height: 512px;
+    top: 0;
+    left: 1035px;
+    object-fit: cover;
+}
+
+.workshop .element-amfcs-zfispxrgug {
+    position: absolute;
+    width: 413px;
+    height: 239px;
+    top: 277px;
+    left: 0;
+    object-fit: cover;
+}
+
+.workshop .rectangle-3 {
+    position: absolute;
+    width: 744px;
+    height: 194px;
+    top: 165px;
+    left: 351px;
+    background-color: #000000a6;
+    border-radius: 15px;
+    border: 5px solid;
+    border-color: red;
+    border-image: linear-gradient(to bottom, rgba(130.69, 123.06, 123.06, 0.44), rgba(255, 255, 255, 0.44)) 1;
+}
+
+.workshop .unleash-your {
+    width: 723px;
+    top: 193px;
+    left: 356px;
+    color: #b0f3aa;
+    position: absolute;
+    -webkit-text-stroke: 1px #000000;
+    font-family: "Kalam-Bold", Helvetica;
+    font-weight: 700;
+    font-size: 32px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    border-radius: 15px;
+}
+
+.workshop .element-bf-ecc {
+    position: absolute;
+    width: 368px;
+    height: 412px;
+    top: 994px;
+    left: 131px;
+    object-fit: cover;
+    transform: rotate(-20deg);
+    /* Add the blur effect */
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
+}
+
+.workshop .element-2 {
+    position: absolute;
+    width: 315px;
+    height: 382px;
+    top: 1011px;
+    left: 258px;
+    object-fit: cover;
+}
+
+.workshop .frame {
+    position: absolute;
+    width: 599px;
+    height: 180px;
+    top: 1102px;
+    left: 527px;
+    background-color: #e3e3e380;
+    border-radius: 15px;
+}
+
+.workshop .upcoming-workshop-wrapper {
+    position: relative;
+    height: 168px;
+    top: 6px;
+    background-color: #e3e3e333;
+    border-radius: 15px;
+}
+
+.workshop .upcoming-workshop {
+    position: absolute;
+    width: 589px;
+    top: 18px;
+    left: 5px;
+    font-family: "Kalam-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 36px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.workshop .got-questions {
+    position: absolute;
+    width: 1511px;
+    height: 969px;
+    top: 3035px;
+    left: 116px;
+}
+
+.workshop .overlap-2 {
+    position: relative;
+    width: 1521px;
+    height: 979px;
+    top: -5px;
+    left: -5px;
+    background-color: #000000a6;
+    border-radius: 15px;
+}
+
+.workshop .p {
+    width: 1391px;
+    top: 805px;
+    left: 73px;
+    color: #00fb47;
+    position: absolute;
+    -webkit-text-stroke: 1px #000000;
+    font-family: "Kalam-Bold", Helvetica;
+    font-weight: 700;
+    font-size: 32px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.workshop .text {
+    position: absolute;
+    width: 626px;
+    height: 174px;
+    top: 384px;
+    left: 835px;
+}
+
+.workshop .text-wrapper-2 {
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    -webkit-text-stroke: 1px #000000;
+    font-family: "Kalam-Bold", Helvetica;
+    font-weight: 700;
+    color: #00fb47;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.workshop .text-wrapper-3 {
+    position: absolute;
+    width: 621px;
+    top: 59px;
+    left: 0;
+    -webkit-text-stroke: 1px #000000;
+    font-family: "Kalam-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.workshop .text-2 {
+    position: absolute;
+    width: 635px;
+    height: 178px;
+    top: 383px;
+    left: 74px;
+}
+
+.workshop .text-wrapper-4 {
+    position: absolute;
+    width: 631px;
+    top: 63px;
+    left: -1px;
+    -webkit-text-stroke: 1px #000000;
+    font-family: "Kalam-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.workshop .text-wrapper-5 {
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    -webkit-text-stroke: 1px #000000;
+    font-family: "Kalam-Bold", Helvetica;
+    font-weight: 700;
+    color: #00fb47;
+    font-size: 32px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.workshop .text-3 {
+    position: absolute;
+    width: 629px;
+    height: 175px;
+    top: 99px;
+    left: 831px;
+}
+
+.workshop .text-wrapper-6 {
+    position: absolute;
+    width: 621px;
+    top: 60px;
+    left: 3px;
+    -webkit-text-stroke: 1px #000000;
+    font-family: "Kalam-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.workshop .text-4 {
+    position: absolute;
+    width: 659px;
+    height: 212px;
+    top: 101px;
+    left: 74px;
+}
+
+.workshop .text-wrapper-7 {
+    width: 655px;
+    top: 59px;
+    left: -1px;
+    -webkit-text-stroke: 1px #000000;
+    color: #ffffff;
+    position: absolute;
+    font-family: "Kalam-Bold", Helvetica;
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.workshop .text-wrapper-8 {
+    position: absolute;
+    width: 478px;
+    top: -1px;
+    left: -1px;
+    -webkit-text-stroke: 1px #000000;
+    font-family: "Kalam-Bold", Helvetica;
+    font-weight: 700;
+    color: #00fb47;
+    font-size: 32px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.workshop .text-wrapper-9 {
+    position: absolute;
+    top: 35px;
+    left: 60px;
+    -webkit-text-stroke: 1px #000000;
+    font-family: "Kalam-Bold", Helvetica;
+    font-weight: 700;
+    color: #00fb47;
+    font-size: 32px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.workshop .art-category {
+    position: absolute;
+    width: 1452px;
+    height: 720px;
+    top: 2243px;
+    left: 163px;
+    overflow: hidden;
+}
+
+.workshop .overlap-3 {
+    position: absolute;
+    width: 1310px;
+    height: 584px;
+    top: 42px;
+    left: 69px;
+}
+
+.workshop .div-2 {
+    position: absolute;
+    width: 1310px;
+    height: 584px;
+    top: 0;
+    left: 0;
+}
+
+.workshop .overlap-4 {
+    position: relative;
+    height: 589px;
+    top: -5px;
+}
+
+.workshop .frame-2 {
+    position: absolute;
+    width: 1310px;
+    height: 510px;
+    top: 79px;
+    left: 0;
+    background-color: #f8e8e836;
+    border-radius: 15px;
+    border: 5px solid;
+    border-color: #0dff8b;
+}
+
+.workshop .overlap-group-wrapper {
+    position: absolute;
+    width: 289px;
+    height: 84px;
+    top: 0;
+    left: 98px;
+    border-radius: 15px 15px 0px 0px;
+    border: 5px solid;
+    border-color: transparent;
+}
+
+.workshop .overlap-group-2 {
+    position: relative;
+    width: 269px;
+    height: 65px;
+    top: 4px;
+    left: 5px;
+}
+
+.workshop .rectangle-4 {
+    position: absolute;
+    width: 269px;
+    height: 64px;
+    top: 1px;
+    left: 0;
+    background-color: #e3e3e333;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.workshop .text-wrapper-10 {
+    position: absolute;
+    top: 0;
+    left: 25px;
+    -webkit-text-stroke: 1px #000000;
+    font-family: "Kalam-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.workshop .frame-3 {
+    top: 74px;
+    left: 0;
+    border-color: #ff0d0d;
+    position: absolute;
+    width: 1310px;
+    height: 510px;
+    background-color: #f8e8e836;
+    border-radius: 15px;
+    border: 5px solid;
+}
+
+.workshop .div-wrapper {
+    width: 279px;
+    height: 74px;
+    left: 393px;
+    position: absolute;
+    top: 0;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.workshop .overlap-group-3 {
+    position: relative;
+    width: 286px;
+    height: 65px;
+    top: 4px;
+    left: -7px;
+}
+
+.workshop .rectangle-5 {
+    position: absolute;
+    width: 286px;
+    height: 64px;
+    top: 1px;
+    left: 0;
+    background-color: #e3e3e333;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.workshop .text-wrapper-11 {
+    position: absolute;
+    top: 0;
+    left: 6px;
+    -webkit-text-stroke: 1px #000000;
+    font-family: "Kalam-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.workshop .frame-4 {
+    top: 79px;
+    left: 0;
+    overflow: hidden;
+    border-color: #3affff;
+    position: absolute;
+    width: 1310px;
+    height: 510px;
+    background-color: #f8e8e836;
+    border-radius: 15px;
+    border: 5px solid;
+}
+
+.workshop .text-wrapper-12 {
+    position: absolute;
+    top: 26px;
+    left: 59px;
+    -webkit-text-stroke: 1px #ffffff;
+    font-family: "Kalam-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 32px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.workshop .personalizes-msg {
+    position: absolute;
+    width: 1243px;
+    height: 369px;
+    top: 530px;
+    left: 28px;
+}
+
+.workshop .overlap-5 {
+    position: absolute;
+    width: 559px;
+    height: 369px;
+    top: 0;
+    left: 698px;
+}
+
+.workshop .send-email-card {
+    position: absolute;
+    width: 559px;
+    height: 369px;
+    top: 0;
+    left: 0;
+}
+
+.workshop .overlap-group-4 {
+    position: relative;
+    width: 547px;
+    height: 373px;
+    top: -2px;
+    left: -2px;
+    background-color: #fffffff2;
+    border-radius: 15px;
+    border: 2px solid;
+    border-color: #000000;
+    box-shadow: -4px 4px 8px #00000080;
+}
+
+.workshop .if-you-dont-like-to {
+    position: absolute;
+    width: 342px;
+    top: 25px;
+    left: 99px;
+    font-family: "Kalam-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.workshop .overlap-6 {
+    position: absolute;
+    width: 352px;
+    height: 32px;
+    top: 92px;
+    left: 107px;
+    background-color: #ffeeee;
+    border: 1px solid;
+    border-color: #00000080;
+}
+
+.workshop .text-wrapper-13 {
+    position: absolute;
+    width: 120px;
+    top: 6px;
+    left: 115px;
+    font-family: "Kaushan Script-Regular", Helvetica;
+    font-weight: 400;
+    color: #00000080;
+    font-size: 11px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.workshop .text-wrapper-14 {
+    position: absolute;
+    width: 56px;
+    top: 0;
+    left: 10px;
+    font-family: "Just Me Again Down Here-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.workshop .overlap-7 {
+    position: absolute;
+    width: 352px;
+    height: 36px;
+    top: 124px;
+    left: 107px;
+    background-color: #ffeeee;
+    border: 1px solid;
+    border-color: #00000080;
+}
+
+.workshop .text-wrapper-15 {
+    left: 105px;
+    position: absolute;
+    width: 180px;
+    top: 4px;
+    font-family: "Caveat-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    text-decoration: underline;
+    white-space: nowrap;
+}
+
+.workshop .text-wrapper-16 {
+    position: absolute;
+    width: 25px;
+    top: 2px;
+    left: 24px;
+    font-family: "Just Me Again Down Here-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.workshop .overlap-8 {
+    position: absolute;
+    width: 352px;
+    height: 138px;
+    top: 160px;
+    left: 107px;
+}
+
+.workshop .rectangle-6 {
+    position: absolute;
+    width: 352px;
+    height: 30px;
+    top: 0;
+    left: 0;
+    background-color: #feeded;
+    border: 1px solid;
+    border-color: #00000080;
+}
+
+.workshop .text-wrapper-17 {
+    width: 46px;
+    left: 150px;
+    font-family: "Caveat-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 20px;
+    white-space: nowrap;
+    position: absolute;
+    top: 4px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.workshop .rectangle-7 {
+    position: absolute;
+    width: 352px;
+    height: 108px;
+    top: 30px;
+    left: 0;
+    background-color: #ffeeee;
+    border: 1px solid;
+    border-color: #00000080;
+}
+
+.workshop .text-wrapper-18 {
+    position: absolute;
+    width: 159px;
+    top: 43px;
+    left: 39px;
+    font-family: "Caveat-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 13px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.workshop .text-wrapper-19 {
+    position: absolute;
+    width: 72px;
+    top: 4px;
+    left: 11px;
+    font-family: "Just Me Again Down Here-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.workshop .send-us-button {
+    position: absolute;
+    width: 110px;
+    height: 47px;
+    top: 306px;
+    left: 418px;
+    border: 1px solid;
+    border-color: #000000;
+}
+
+.workshop .frame-5 {
+    position: relative;
+    width: 108px;
+    height: 45px;
+    background-color: #ffffff;
+    box-shadow: -4px 4px 8px #000000cf;
+}
+
+.workshop .text-wrapper-20 {
+    position: absolute;
+    top: 3px;
+    left: 12px;
+    font-family: "Kalam-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.workshop .price-for-one-day {
+    width: 367px;
+    position: absolute;
+    top: 53px;
+    left: -1px;
+    -webkit-text-stroke: 1px #000000;
+    font-family: "Kalam-Bold", Helvetica;
+    font-weight: 700;
+    color: #62fafa;
+    font-size: 32px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.workshop .whatspp-link {
+    position: absolute;
+    width: 275px;
+    height: 219px;
+    top: 65px;
+    left: 397px;
+}
+
+.workshop .text-wrapper-21 {
+    position: absolute;
+    width: 271px;
+    top: 108px;
+    left: -1px;
+    -webkit-text-stroke: 1px #000000;
+    font-family: "Kalam-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.workshop .whatsapp {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: -6316px;
+    left: 1272px;
+    object-fit: cover;
+}
+
+.workshop .overlap-9 {
+    position: absolute;
+    width: 258px;
+    height: 38px;
+    top: 181px;
+    left: 7px;
+    background-color: #d9d9d9a3;
+    border: 1px solid;
+    border-color: #000000;
+}
+
+.workshop .text-wrapper-22 {
+    position: absolute;
+    width: 146px;
+    top: 8px;
+    left: 55px;
+    font-family: "Kalam-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.workshop .one-day-workshop {
+    position: absolute;
+    width: 215px;
+    height: 72px;
+    top: 381px;
+    left: 388px;
+    background-color: #d9d9d9;
+    border-radius: 15px;
+    border: 1px solid;
+    border-color: #000000;
+    box-shadow: -8px 8px 8px #000000;
+}
+
+.workshop .text-wrapper-23 {
+    position: absolute;
+    width: 222px;
+    top: 18px;
+    left: -4px;
+    -webkit-text-stroke: 1px #000000;
+    font-family: "Kalam-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.workshop .element-hours {
+    position: absolute;
+    width: 215px;
+    height: 72px;
+    top: 381px;
+    left: 696px;
+    background-color: #d9d9d9;
+    border-radius: 15px;
+    border: 1px solid;
+    border-color: #000000;
+    box-shadow: -8px 8px 8px #000000;
+}
+
+.workshop .text-wrapper-24 {
+    width: 193px;
+    left: 9px;
+    color: #ffffff;
+    position: absolute;
+    top: 18px;
+    -webkit-text-stroke: 1px #000000;
+    font-family: "Kalam-Bold", Helvetica;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.workshop .master-the-basics {
+    position: absolute;
+    top: 95px;
+    left: 23px;
+    font-family: "Kalam-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.workshop .overlap-wrapper {
+    width: 289px;
+    height: 84px;
+    left: 678px;
+    border: 5px solid;
+    border-color: #0dffff;
+    position: absolute;
+    top: 0;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.workshop .overlap-10 {
+    position: relative;
+    width: 279px;
+    height: 74px;
+    background-color: #e3e3e333;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.workshop .text-wrapper-25 {
+    left: 80px;
+    -webkit-text-stroke: 1px #000000;
+    font-family: "Kalam-Bold", Helvetica;
+    font-weight: 700;
+    color: #3affff;
+    font-size: 40px;
+    position: absolute;
+    top: 4px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.workshop .personalizes-msg-2 {
+    position: absolute;
+    width: 1175px;
+    height: 411px;
+    top: 727px;
+    left: 125px;
+}
+
+.workshop .overlap-11 {
+    position: absolute;
+    width: 559px;
+    height: 369px;
+    top: 0;
+    left: 630px;
+}
+
+.workshop .frame-wrapper {
+    top: 306px;
+    left: 398px;
+    position: absolute;
+    width: 110px;
+    height: 47px;
+    border: 1px solid;
+    border-color: #000000;
+}
+
+.workshop .price-for-one-day-2 {
+    width: 318px;
+    position: absolute;
+    top: 53px;
+    left: -1px;
+    -webkit-text-stroke: 1px #000000;
+    font-family: "Kalam-Bold", Helvetica;
+    font-weight: 700;
+    color: #62fafa;
+    font-size: 32px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.workshop .whatspp-link-2 {
+    height: 219px;
+    top: 78px;
+    left: 329px;
+    position: absolute;
+    width: 275px;
+}
+
+.workshop .whatsapp-2 {
+    top: -6200px;
+    left: 1341px;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.workshop .frame-6 {
+    top: -786px;
+    left: 70px;
+    overflow: hidden;
+    border-color: #3affff;
+    position: absolute;
+    width: 1310px;
+    height: 510px;
+    background-color: #f8e8e836;
+    border-radius: 15px;
+    border: 5px solid;
+}
+
+.workshop .send-email-card-2 {
+    position: absolute;
+    width: 490px;
+    height: 406px;
+    top: 39px;
+    left: 792px;
+}
+
+.workshop .overlap-12 {
+    position: relative;
+    width: 492px;
+    height: 410px;
+    top: -2px;
+    left: -2px;
+    background-color: #fffffff2;
+    border-radius: 15px;
+    border: 2px solid;
+    border-color: #000000;
+    box-shadow: -4px 4px 8px #00000080;
+}
+
+.workshop .if-you-don-t-like-to {
+    position: absolute;
+    width: 451px;
+    top: 21px;
+    left: 19px;
+    font-family: "Kalam-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.workshop .overlap-13 {
+    position: absolute;
+    width: 356px;
+    height: 148px;
+    top: 187px;
+    left: 67px;
+}
+
+.workshop .text-box {
+    position: absolute;
+    width: 354px;
+    height: 118px;
+    top: 30px;
+    left: 0;
+}
+
+.workshop .overlap-group-5 {
+    position: relative;
+    width: 352px;
+    height: 118px;
+    background-color: #ffeeee;
+    border: 1px solid;
+    border-color: #00000080;
+}
+
+.workshop .text-wrapper-26 {
+    position: absolute;
+    width: 159px;
+    top: 13px;
+    left: 23px;
+    font-family: "Caveat-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 13px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.workshop .place {
+    position: absolute;
+    width: 356px;
+    height: 31px;
+    top: 0;
+    left: 0;
+}
+
+.workshop .overlap-14 {
+    position: relative;
+    width: 352px;
+    height: 31px;
+}
+
+.workshop .text-wrapper-27 {
+    position: absolute;
+    width: 192px;
+    top: 3px;
+    left: 127px;
+    font-family: "Caveat-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.workshop .text-wrapper-28 {
+    position: absolute;
+    width: 104px;
+    top: 1px;
+    left: 4px;
+    font-family: "Just Me Again Down Here-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.workshop .from {
+    position: absolute;
+    width: 356px;
+    height: 32px;
+    top: 87px;
+    left: 65px;
+}
+
+.workshop .overlap-15 {
+    position: relative;
+    width: 352px;
+    height: 32px;
+    background-color: #ffeeee;
+    border: 1px solid;
+    border-color: #00000080;
+}
+
+.workshop .text-wrapper-29 {
+    position: absolute;
+    width: 120px;
+    top: 4px;
+    left: 102px;
+    font-family: "Kaushan Script-Regular", Helvetica;
+    font-weight: 400;
+    color: #00000080;
+    font-size: 11px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.workshop .text-wrapper-30 {
+    position: absolute;
+    width: 56px;
+    top: -1px;
+    left: 7px;
+    font-family: "Just Me Again Down Here-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.workshop .to {
+    position: absolute;
+    width: 356px;
+    height: 36px;
+    top: 119px;
+    left: 65px;
+}
+
+.workshop .overlap-16 {
+    position: relative;
+    width: 352px;
+    height: 36px;
+    background-color: #ffeeee;
+    border: 1px solid;
+    border-color: #00000080;
+}
+
+.workshop .text-wrapper-31 {
+    left: 90px;
+    position: absolute;
+    width: 180px;
+    top: 4px;
+    font-family: "Caveat-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    text-decoration: underline;
+    white-space: nowrap;
+}
+
+.workshop .text-wrapper-32 {
+    position: absolute;
+    width: 25px;
+    top: 3px;
+    left: 12px;
+    font-family: "Just Me Again Down Here-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.workshop .interested {
+    position: absolute;
+    width: 356px;
+    height: 30px;
+    top: 155px;
+    left: 65px;
+}
+
+.workshop .overlap-17 {
+    position: relative;
+    width: 352px;
+    height: 30px;
+    background-color: #feeded;
+    border: 1px solid;
+    border-color: #00000080;
+}
+
+.workshop .text-wrapper-33 {
+    position: absolute;
+    width: 192px;
+    top: 2px;
+    left: 97px;
+    font-family: "Caveat-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.workshop .text-wrapper-34 {
+    position: absolute;
+    width: 72px;
+    top: -1px;
+    left: 7px;
+    font-family: "Just Me Again Down Here-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.workshop .button {
+    top: 343px;
+    left: 363px;
+    position: absolute;
+    width: 110px;
+    height: 47px;
+    border: 1px solid;
+    border-color: #000000;
+    all: unset;
+    box-sizing: border-box;
+}
+
+.workshop .send-us {
+    position: absolute;
+    top: 3px;
+    left: 28px;
+    font-family: "Kalam-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.workshop .whatspp-link-3 {
+    height: 246px;
+    top: 133px;
+    left: 445px;
+    position: absolute;
+    width: 275px;
+}
+
+.workshop .text-wrapper-35 {
+    position: absolute;
+    width: 271px;
+    top: 120px;
+    left: -1px;
+    -webkit-text-stroke: 1px #000000;
+    font-family: "Kalam-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.workshop .whatsapp-3 {
+    top: -5414px;
+    left: 1274px;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.workshop .overlap-18 {
+    position: absolute;
+    width: 258px;
+    height: 38px;
+    top: 208px;
+    left: 7px;
+    background-color: #ffffff;
+    border: 1px solid;
+    border-color: #000000;
+}
+
+.workshop .whatsapp-4 {
+    top: -5414px;
+    left: 1271px;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.workshop .one-day-workshop-2 {
+    position: absolute;
+    width: 193px;
+    height: 72px;
+    top: 19px;
+    left: 49px;
+    background-color: #d9d9d9;
+    border-radius: 15px;
+    border: 1px solid;
+    border-color: #000000;
+}
+
+.workshop .text-wrapper-36 {
+    position: absolute;
+    top: 18px;
+    left: 15px;
+    -webkit-text-stroke: 1px #000000;
+    font-family: "Kalam-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.workshop .one-day-workshop-3 {
+    position: absolute;
+    width: 205px;
+    height: 72px;
+    top: 19px;
+    left: 294px;
+    background-color: #d9d9d9;
+    border-radius: 15px;
+    border: 1px solid;
+    border-color: #000000;
+    box-shadow: -8px 8px 8px #000000;
+}
+
+.workshop .text-wrapper-37 {
+    width: 185px;
+    left: 12px;
+    color: #3affff;
+    position: absolute;
+    top: 18px;
+    -webkit-text-stroke: 1px #000000;
+    font-family: "Kalam-Bold", Helvetica;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.workshop .this-workshop-will {
+    position: absolute;
+    width: 343px;
+    top: 148px;
+    left: 44px;
+    -webkit-text-stroke: 1px #000000;
+    font-family: "Caveat-Bold", Helvetica;
+    font-weight: 700;
+    color: #3affff;
+    font-size: 32px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.workshop .frame-7 {
+    position: absolute;
+    width: 237px;
+    height: 526px;
+    top: 927px;
+    left: 1229px;
+    background-image: url(./img/1592108168694-1.png);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.workshop .swati-h-das-2 {
+    position: absolute;
+    width: 237px;
+    height: 525px;
+    top: 927px;
+    left: 1476px;
+    object-fit: cover;
+}
+
+.workshop .green-leaf {
+    position: absolute;
+    width: 321px;
+    height: 526px;
+    top: 90px;
+    left: 1200px;
+    object-fit: cover;
+    background-color: red;
+    transform: rotate(40deg);
+}
+
+.workshop .got-more-questions {
+    position: absolute;
+    width: 684px;
+    height: 62px;
+    top: 3735px;
+    left: 501px;
+}
+
+.workshop .more-question-button {
+    width: 686px;
+    height: 62px;
+}
+
+.workshop .overlap-group-6 {
+    position: relative;
+    width: 684px;
+    height: 62px;
+    background-color: #a8a8a8;
+    border-radius: 50px;
+    border: 1px solid;
+    border-color: #000000;
+    box-shadow: -4px 4px 8px #000000a6;
+}
+
+.workshop .text-wrapper-38 {
+    position: absolute;
+    top: 9px;
+    left: 84px;
+    -webkit-text-stroke: 1px #000000;
+    font-family: "Kalam-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 32px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.workshop .workshop-into {
+    position: absolute;
+    width: 1603px;
+    height: 760px;
+    top: 1481px;
+    left: 83px;
+    overflow: hidden;
+    display: inline-block;
+    margin: 0 0.5rem;
+    animation: animate__rubberBand;
+    /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 10s;
+    /* don't forget to set a duration! */
+}
+
+.workshop .element-wrapper {
+    position: absolute;
+    width: 348px;
+    height: 412px;
+    top: 0;
+    left: 0;
+}
+
+.workshop .element-3 {
+    position: absolute;
+    width: 348px;
+    height: 412px;
+    top: 0;
+    left: 4px;
+    object-fit: cover;
+}
+
+.workshop .welcome-to-workshop {
+    position: absolute;
+    width: 865px;
+    height: 169px;
+    top: 0;
+    left: 374px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+}
+
+.workshop .overlap-group-7 {
+    position: relative;
+    width: 873px;
+    height: 179px;
+    top: -5px;
+    left: -5px;
+    border-radius: 15px;
+}
+
+.workshop .text-wrapper-39 {
+    position: absolute;
+    width: 850px;
+    top: 5px;
+    left: 31px;
+    -webkit-text-stroke: 0.5px #000000;
+    font-family: "Kalam-Bold", Helvetica;
+    font-weight: 800;
+    color: #fffd80;
+    font-size: 38px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    text-shadow: -5px 3px 7px rgba(0, 0, 0, 0.95);
+}
+
+.workshop .swati-h-das-3 {
+    position: absolute;
+    width: 348px;
+    height: 262px;
+    top: 427px;
+    left: 4px;
+    object-fit: cover;
+}
+
+.workshop .overlap-19 {
+    position: absolute;
+    width: 1203px;
+    height: 757px;
+    top: 1px;
+    left: 374px;
+}
+
+.workshop .frame-8 {
+    position: absolute;
+    width: 1200px;
+    height: 551px;
+    top: 192px;
+    left: 0;
+}
+
+.workshop .overlap-20 {
+    position: relative;
+    height: 499px;
+    background-color: #eaedf6d1;
+    border-radius: 15px;
+    box-shadow: -8px 8px 16px #000000a6;
+}
+
+.workshop .text-wrapper-40 {
+    position: absolute;
+    top: 220px;
+    left: 335px;
+    -webkit-text-stroke: 1px #000000;
+    font-family: "Kalam-Bold", Helvetica;
+    font-weight: 700;
+    color: #00fb47;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.workshop .swati-h-das-4 {
+    position: absolute;
+    width: 301px;
+    height: 240px;
+    top: 244px;
+    left: 26px;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: -12px 10px 11px 0px rgba(0, 0, 0, 0.66);
+    -webkit-box-shadow: -12px 10px 11px 0px rgba(0, 0, 0, 0.66);
+    -moz-box-shadow: -12px 10px 11px 0px rgba(0, 0, 0, 0.66);
+}
+
+.workshop .discover-the {
+    position: absolute;
+    width: 842px;
+    top: 80px;
+    left: 57px;
+    font-family: "Kalam-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.workshop .text-wrapper-41 {
+    position: absolute;
+    top: 20px;
+    left: 33px;
+    -webkit-text-stroke: 1px #000000;
+    font-family: "Kalam-Bold", Helvetica;
+    font-weight: 700;
+    color: #00ff00;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.workshop .text-wrapper-42 {
+    width: 818px;
+    top: 300px;
+    left: 350px;
+    color: #000000;
+    position: absolute;
+    font-family: "Kalam-Bold", Helvetica;
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.workshop .r {
+    position: absolute;
+    width: 327px;
+    height: 327px;
+    top: 0;
+    left: 876px;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: -12px 10px 11px 0px rgba(0, 0, 0, 0.66);
+    -webkit-box-shadow: -12px 10px 11px 0px rgba(0, 0, 0, 0.66);
+    -moz-box-shadow: -12px 10px 11px 0px rgba(0, 0, 0, 0.66);
+}
+
+.workshop .arrow-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    position: absolute;
+    top: 703px;
+    left: 367px;
+}
+
+.workshop .icon-arrow-circle {
+    height: 53.58px;
+    position: relative;
+    width: 50px;
+}
+
+.workshop .icon-arrow-circle-2 {
+    height: 51.08px;
+    position: relative;
+    width: 50px;
+}
+
+.workshop .swati-h-das-5 {
+    position: absolute;
+    width: 353px;
+    height: 260px;
+    top: -4608px;
+    left: 2579px;
+    object-fit: cover;
+}
+
+.workshop .header {
+    position: absolute;
+    width: 1552px;
+    height: 155px;
+    top: 56px;
+    left: 108px;
+    background-color: transparent;
+    box-shadow: -4px 4px 8px #00000080;
+}
+
+.workshop .frame-9 {
+    position: relative;
+    width: 1552px;
+    height: 155px;
+    background-color: #f7e3f8;
+    border-radius: 15px;
+}
+
+.workshop .overlap-group-8 {
+    position: absolute;
+    width: 650px;
+    height: 374px;
+    top: -53px;
+    left: -33px;
+}
+
+.workshop .text-wrapper-43 {
+    position: absolute;
+    width: 352px;
+    top: 101px;
+    left: 298px;
+    text-shadow: 10px 10px 20px #10500a33;
+    -webkit-text-stroke: 1px #266929;
+    font-family: "MedievalSharp-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 48px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.workshop .circ-heal-studio {
+    position: absolute;
+    width: 314px;
+    height: 374px;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+
+.workshop .nav-bar-wrapper {
+    position: absolute;
+    width: 642px;
+    height: 61px;
+    top: 47px;
+    left: 874px;
+    background-color: #f7e3f8;
+}
+
+.workshop .nav-bar {
+    display: flex;
+    width: 642px;
+    height: 61px;
+    align-items: flex-start;
+    gap: 30px;
+    padding: 10px 20px;
+    position: relative;
+    border-radius: 20px;
+}
+
+.workshop .image {
+    position: relative;
+    width: 82px;
+    height: 39px;
+    object-fit: cover;
+}
+
+.workshop .text-wrapper-44 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1.3px;
+    -webkit-text-stroke: 0.3px #120b0b;
+    font-family: "Kalam-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.workshop .text-wrapper-45 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1.3px;
+    margin-right: -7.7px;
+    -webkit-text-stroke: 0.3px #120b0b;
+    font-family: "Kalam-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.workshop .join-us {
+    top: 258px;
+    left: 792px;
+    position: absolute;
+    width: 186px;
+    height: 66px;
+}
+
+.workshop .overlap-21 {
+    position: relative;
+    width: 184px;
+    height: 66px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0px 4px 4px #00000040, -8px 8px 16px #00000080;
+}
+
+.workshop .text-wrapper-46 {
+    position: absolute;
+    width: 184px;
+    top: 3px;
+    left: 0;
+    font-family: "Kalam-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.workshop .andreas-fickl {
+    position: absolute;
+    width: 1728px;
+    height: 1038px;
+    top: 4089px;
+    left: 20px;
+    object-fit: cover;
+    /* Add the blur effect */
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+}
+
+.workshop .alexander-ant {
+    position: absolute;
+    width: 1728px;
+    height: 1117px;
+    top: 5102px;
+    left: 20px;
+    object-fit: cover;
+    /* Add the blur effect */
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+}
+
+.workshop .benifits {
+    position: absolute;
+    width: 1521px;
+    height: 1978px;
+    top: 4164px;
+    left: 123px;
+    background-color: #171616bf;
+    border-radius: 15px;
+}
+
+.workshop .text-wrapper-47 {
+    position: absolute;
+    width: 1391px;
+    top: 1856px;
+    left: 77px;
+    -webkit-text-stroke: 1px #000000;
+    font-family: "Kalam-Bold", Helvetica;
+    font-weight: 700;
+    color: #00fb47;
+    font-size: 32px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.workshop .text-5 {
+    position: absolute;
+    width: 659px;
+    height: 174px;
+    top: 199px;
+    left: 62px;
+}
+
+.workshop .text-wrapper-48 {
+    position: absolute;
+    width: 478px;
+    top: -1px;
+    left: -1px;
+    -webkit-text-stroke: 1px #000000;
+    font-family: "Kalam-Bold", Helvetica;
+    font-weight: 700;
+    color: #00fb47;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.workshop .text-6 {
+    position: absolute;
+    width: 659px;
+    height: 174px;
+    top: 1399px;
+    left: 62px;
+}
+
+.workshop .text-7 {
+    position: absolute;
+    width: 659px;
+    height: 174px;
+    top: 1190px;
+    left: 800px;
+}
+
+.workshop .text-8 {
+    position: absolute;
+    width: 659px;
+    height: 174px;
+    top: 1190px;
+    left: 60px;
+}
+
+.workshop .text-9 {
+    position: absolute;
+    width: 659px;
+    height: 174px;
+    top: 1399px;
+    left: 792px;
+}
+
+.workshop .text-10 {
+    position: absolute;
+    width: 659px;
+    height: 174px;
+    top: 1608px;
+    left: 52px;
+}
+
+.workshop .text-11 {
+    position: absolute;
+    width: 659px;
+    height: 174px;
+    top: 402px;
+    left: 62px;
+}
+
+.workshop .text-12 {
+    position: absolute;
+    width: 659px;
+    height: 174px;
+    top: 604px;
+    left: 62px;
+}
+
+.workshop .text-13 {
+    position: absolute;
+    width: 659px;
+    height: 170px;
+    top: 806px;
+    left: 62px;
+}
+
+.workshop .text-wrapper-49 {
+    top: 55px;
+    position: absolute;
+    width: 655px;
+    left: -1px;
+    -webkit-text-stroke: 1px #000000;
+    font-family: "Kalam-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.workshop .text-14 {
+    position: absolute;
+    width: 659px;
+    height: 174px;
+    top: 1003px;
+    left: 62px;
+}
+
+.workshop .text-15 {
+    position: absolute;
+    width: 659px;
+    height: 174px;
+    top: 199px;
+    left: 801px;
+}
+
+.workshop .text-16 {
+    position: absolute;
+    width: 659px;
+    height: 174px;
+    top: 402px;
+    left: 801px;
+}
+
+.workshop .text-17 {
+    position: absolute;
+    width: 659px;
+    height: 174px;
+    top: 604px;
+    left: 800px;
+}
+
+.workshop .text-18 {
+    position: absolute;
+    width: 659px;
+    height: 174px;
+    top: 806px;
+    left: 801px;
+}
+
+.workshop .text-19 {
+    position: absolute;
+    width: 659px;
+    height: 174px;
+    top: 1003px;
+    left: 801px;
+}
+
+.workshop .text-wrapper-50 {
+    width: 1394px;
+    top: 86px;
+    left: 61px;
+    position: absolute;
+    -webkit-text-stroke: 1px #000000;
+    font-family: "Kalam-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.workshop .text-wrapper-51 {
+    position: absolute;
+    top: 35px;
+    left: 61px;
+    -webkit-text-stroke: 1px #000000;
+    font-family: "Kalam-Bold", Helvetica;
+    font-weight: 700;
+    color: #00fb47;
+    font-size: 32px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.workshop .footer {
+    position: absolute;
+    width: 1762px;
+    height: 420px;
+    top: 7229px;
+    left: 0;
+    background-color: transparent;
+    mix-blend-mode: normal;
+    opacity: 0.45;
+}
+
+.workshop .overlap-22 {
+    position: relative;
+    width: 1751px;
+    height: 703px;
+    top: -283px;
+}
+
+.workshop .background {
+    position: absolute;
+    width: 1751px;
+    height: 393px;
+    top: 311px;
+    left: 0;
+    filter: blur(50px);
+    background: linear-gradient(180deg, rgb(119.86, 255, 157.7) 0%, rgb(37.75, 52.59, 144.62) 100%);
+}
+
+.workshop .wave {
+    position: absolute;
+    width: 1728px;
+    height: 667px;
+    top: 0;
+    left: 20px;
+}
+
+.workshop .ellipse {
+    position: absolute;
+    width: 149px;
+    height: 163px;
+    top: 365px;
+    left: 1342px;
+    background-color: #ffffff;
+    border-radius: 74.5px/81.27px;
+    box-shadow: 0px 4px 8px #000000cf;
+}
+
+.workshop .vector {
+    position: absolute;
+    width: 1018px;
+    height: 281px;
+    top: 385px;
+    left: 730px;
+}
+
+.workshop .vector-2 {
+    position: absolute;
+    width: 1728px;
+    height: 198px;
+    top: 461px;
+    left: 20px;
+}
+
+.workshop .vector-3 {
+    position: absolute;
+    width: 1728px;
+    height: 205px;
+    top: 463px;
+    left: 20px;
+}
+
+.workshop .vector-4 {
+    position: absolute;
+    width: 1020px;
+    height: 104px;
+    top: 564px;
+    left: 728px;
+}
+
+.workshop .vector-5 {
+    position: absolute;
+    width: 765px;
+    height: 161px;
+    top: 507px;
+    left: 20px;
+}
+
+.workshop .vector-6 {
+    position: absolute;
+    width: 889px;
+    height: 243px;
+    top: 424px;
+    left: 859px;
+}
+
+.workshop .preview-with-scroll {
+    position: absolute;
+    width: 1593px;
+    height: 795px;
+    top: 6326px;
+    left: 102px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: -8px 8px 16px #000000a6;
+}
+
+.workshop .small-icon-view {
+    display: flex;
+    flex-wrap: wrap;
+    width: 700px;
+    align-items: flex-start;
+    gap: 50px 50px;
+    position: absolute;
+    top: 51px;
+    left: 58px;
+}
+
+.workshop .pic {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 50px;
+    flex: 0 0 auto;
+    position: relative;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: -8px 8px 10px #000000a6;
+}
+
+.workshop .IMG-removebg {
+    position: relative;
+    width: 216px;
+    height: 216px;
+    margin-top: -4px;
+    margin-bottom: -12px;
+    margin-left: -12px;
+    margin-right: -4px;
+    object-fit: cover;
+}
+
+.workshop .img-2 {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.workshop .IMG-wrapper {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    position: relative;
+    flex: 0 0 auto;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: -8px 8px 10px #000000a6;
+}
+
+.workshop .img-wrapper {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: -8px 8px 10px #000000a6;
+}
+
+.workshop .img-3 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+
+.workshop .pic-2 {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: -8px 8px 10px #000000a6;
+}
+
+.workshop .untitled {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: -11084px;
+    left: 1266px;
+    object-fit: cover;
+}
+
+.workshop .untitled-artwork {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: -11084px;
+    left: 1016px;
+    object-fit: cover;
+}
+
+.workshop .IMG-removebg-2 {
+    height: 287px;
+    top: -11127px;
+    left: 766px;
+    position: absolute;
+    width: 200px;
+    object-fit: cover;
+}
+
+.workshop .IMG {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: -11334px;
+    left: 1266px;
+    object-fit: cover;
+}
+
+.workshop .IMG-2 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: -11334px;
+    left: 1016px;
+    object-fit: cover;
+}
+
+.workshop .IMG-3 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: -11334px;
+    left: 766px;
+    object-fit: cover;
+}
+
+.workshop .scroll-bar {
+    position: absolute;
+    width: 10px;
+    height: 642px;
+    top: 79px;
+    left: 792px;
+    background-color: #d9d9d9;
+    border-radius: 50px;
+}
+
+.workshop .rectangle-8 {
+    position: absolute;
+    width: 10px;
+    height: 214px;
+    top: 0;
+    left: 0;
+    background-color: #32b7f1;
+    border-radius: 50px;
+}
+
+.workshop .icon-nav-arrow-down {
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    top: 646px;
+    left: -2px;
+}
+
+.workshop .icon-nav-arrow-down-2 {
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    top: -26px;
+    left: -2px;
+}
+
+.workshop .text-wrapper-52 {
+    position: absolute;
+    top: 6239px;
+    left: 144px;
+    font-family: "Kalam-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.workshop .imgae-zoom {
+    position: absolute;
+    width: 500px;
+    height: 630px;
+    top: 941px;
+    left: -595px;
+}
+
+.workshop .dafb-af-d {
+    position: absolute;
+    width: 500px;
+    height: 630px;
+    top: -4898px;
+    left: 2001px;
+    object-fit: cover;
+}
+
+.workshop .image-2 {
+    position: absolute;
+    width: 1033px;
+    height: 937px;
+    top: -3836px;
+    left: 3236px;
+    object-fit: cover;
+}
+
+.workshop .unleash-creativity {
+    position: absolute;
+    top: 2567px;
+    left: -718px;
+    font-family: "Matura MT Script Capitals-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 64px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.workshop .overlap-23 {
+    position: absolute;
+    width: 1035px;
+    height: 387px;
+    top: 500px;
+    left: -1154px;
+}
+
+.workshop .buttons {
+    position: absolute;
+    width: 335px;
+    height: 59px;
+    top: 155px;
+    left: 617px;
+}
+
+.workshop .button-lear-more {
+    position: absolute;
+    width: 153px;
+    height: 59px;
+    top: 0;
+    left: 0;
+}
+
+.workshop .overlap-group-9 {
+    position: relative;
+    width: 151px;
+    height: 59px;
+    background-color: #d9d9d9;
+    border-radius: 25px;
+    box-shadow: -4px 4px 8px #00000080, inset -4px 4px 10px #00000054;
+}
+
+.workshop .text-wrapper-53 {
+    position: absolute;
+    top: 15px;
+    left: 14px;
+    font-family: "Merienda One-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.workshop .button-signup {
+    position: absolute;
+    width: 153px;
+    height: 59px;
+    top: 0;
+    left: 184px;
+    all: unset;
+    box-sizing: border-box;
+}
+
+.workshop .overlap-24 {
+    position: relative;
+    width: 151px;
+    height: 59px;
+    background-color: #50e08a59;
+    border-radius: 25px;
+    box-shadow: -4px 4px 8px #00000080, inset -4px 4px 10px #00000054;
+}
+
+.workshop .text-wrapper-54 {
+    position: absolute;
+    top: 15px;
+    left: 37px;
+    font-family: "Merienda One-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.workshop .text-20 {
+    position: absolute;
+    width: 1035px;
+    height: 387px;
+    top: 0;
+    left: 0;
+}
+
+.workshop .welcome-to-circheal-wrapper {
+    position: relative;
+    width: 1033px;
+    height: 387px;
+    background-color: #dbdbdb9c;
+    border-radius: 15px;
+    box-shadow: 0px 4px 4px #00000040, -8px 8px 16px #00000080;
+}
+
+.workshop .welcome-to-circheal {
+    position: absolute;
+    width: 960px;
+    top: 63px;
+    left: 37px;
+    font-family: "Margarine-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.workshop .text-wrapper-55 {
+    position: absolute;
+    width: 352px;
+    top: -269px;
+    left: 381px;
+    text-shadow: 10px 10px 20px #10500a33;
+    -webkit-text-stroke: 1px #266929;
+    font-family: "MedievalSharp-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.workshop .join-us-2 {
+    top: -221px;
+    left: 772px;
+    position: absolute;
+    width: 186px;
+    height: 66px;
+}
+
+.workshop .overlap-25 {
+    position: relative;
+    width: 184px;
+    height: 66px;
+    background-color: #dbdbdb9c;
+    border-radius: 15px;
+    box-shadow: 0px 4px 4px #00000040, -8px 8px 16px #00000080;
+}
+
+.workshop .form {
+    position: absolute;
+    width: 1207px;
+    height: 750px;
+    top: -1053px;
+    left: 260px;
+    background-color: #cfcaca;
+    border-radius: 25px;
+    box-shadow: 0px 0px 0px #00000066, -26px 17px 68px #00000063, -105px 67px 124px #00000057, -236px 151px 168px #00000033, -419px 268px 199px #0000000f, -655px 419px 218px #00000003;
+}
+
+.workshop .contact-us-form {
+    position: relative;
+    width: 742px;
+    height: 621px;
+    top: 57px;
+    left: 17px;
+}
+
+.workshop .text-wrapper-56 {
+    position: absolute;
+    width: 428px;
+    top: 0;
+    left: 0;
+    font-family: "Kalam-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.workshop .first-name {
+    position: absolute;
+    width: 433px;
+    height: 30px;
+    top: 155px;
+    left: 19px;
+}
+
+.workshop .div-3 {
+    position: absolute;
+    width: 130px;
+    top: 0;
+    left: 0;
+    font-family: "Kalam-Bold", Helvetica;
+    font-weight: 700;
+    color: transparent;
+    font-size: 20px;
+    text-align: right;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.workshop .span {
+    color: #000000;
+}
+
+.workshop .text-wrapper-57 {
+    color: #ff0000;
+}
+
+.workshop .rectangle-9 {
+    position: absolute;
+    width: 289px;
+    height: 30px;
+    top: 0;
+    left: 142px;
+    background-color: #d9d9d9;
+    border-radius: 20px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-color: #000000;
+}
+
+.workshop .middle-name {
+    position: absolute;
+    width: 443px;
+    height: 30px;
+    top: 212px;
+    left: 9px;
+}
+
+.workshop .text-wrapper-58 {
+    position: absolute;
+    width: 130px;
+    top: 0;
+    left: 0;
+    font-family: "Kalam-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 20px;
+    text-align: right;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.workshop .rectangle-10 {
+    width: 289px;
+    height: 30px;
+    top: 0;
+    left: 152px;
+    position: absolute;
+    background-color: #d9d9d9;
+    border-radius: 20px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-color: #000000;
+}
+
+.workshop .last-name {
+    position: absolute;
+    width: 441px;
+    height: 30px;
+    top: 269px;
+    left: 11px;
+}
+
+.workshop .rectangle-11 {
+    width: 289px;
+    height: 30px;
+    top: 0;
+    left: 150px;
+    position: absolute;
+    background-color: #d9d9d9;
+    border-radius: 20px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-color: #000000;
+}
+
+.workshop .overlap-group-10 {
+    position: absolute;
+    width: 707px;
+    height: 104px;
+    top: 326px;
+    left: 9px;
+}
+
+.workshop .email {
+    position: absolute;
+    width: 443px;
+    height: 30px;
+    top: 0;
+    left: 0;
+}
+
+.workshop .rectangle-12 {
+    width: 291px;
+    height: 30px;
+    top: 0;
+    left: 150px;
+    position: absolute;
+    background-color: #d9d9d9;
+    border-radius: 20px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-color: #000000;
+}
+
+.workshop .mobile {
+    position: absolute;
+    width: 697px;
+    height: 104px;
+    top: 0;
+    left: 10px;
+}
+
+.workshop .text-wrapper-59 {
+    position: absolute;
+    width: 115px;
+    top: 57px;
+    left: 0;
+    font-family: "Kalam-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 20px;
+    text-align: right;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.workshop .rectangle-13 {
+    width: 291px;
+    height: 30px;
+    top: 57px;
+    left: 140px;
+    position: absolute;
+    background-color: #d9d9d9;
+    border-radius: 20px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-color: #000000;
+}
+
+.workshop .text-wrapper-60 {
+    position: absolute;
+    width: 221px;
+    top: 0;
+    left: 472px;
+    font-family: "Kalam-Bold", Helvetica;
+    font-weight: 700;
+    color: #db5252;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.workshop .message {
+    position: absolute;
+    width: 666px;
+    height: 110px;
+    top: 440px;
+    left: 31px;
+}
+
+.workshop .message-2 {
+    position: absolute;
+    width: 105px;
+    top: 0;
+    left: 0;
+    font-family: "Kalam-Bold", Helvetica;
+    font-weight: 700;
+    color: transparent;
+    font-size: 20px;
+    text-align: right;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.workshop .text-wrapper-61 {
+    color: #ff0808;
+}
+
+.workshop .rectangle-14 {
+    width: 534px;
+    height: 110px;
+    top: 0;
+    left: 130px;
+    position: absolute;
+    background-color: #d9d9d9;
+    border-radius: 20px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-color: #000000;
+}
+
+.workshop .text-wrapper-62 {
+    position: absolute;
+    top: 68px;
+    left: 105px;
+    font-family: "Kalam-Bold", Helvetica;
+    font-weight: 700;
+    color: #030303;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.workshop .text-wrapper-63 {
+    position: absolute;
+    width: 264px;
+    top: 134px;
+    left: 472px;
+    font-family: "Kalam-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.workshop .send-us-button-2 {
+    top: 575px;
+    left: 503px;
+    position: absolute;
+    width: 110px;
+    height: 47px;
+    border: 1px solid;
+    border-color: #000000;
+}
+
+.workshop .overlap-26 {
+    position: absolute;
+    width: 1377px;
+    height: 13116px;
+    top: 980px;
+    left: 1852px;
+}
+
+.workshop .email-send {
+    position: absolute;
+    width: 1249px;
+    height: 11488px;
+    top: 1628px;
+    left: 128px;
+}
+
+.workshop .dfsd {
+    position: absolute;
+    width: 1207px;
+    height: 749px;
+    top: -3957px;
+    left: 1406px;
+    object-fit: cover;
+}
+
+.workshop .email-send-2 {
+    position: absolute;
+    width: 328px;
+    top: 392px;
+    left: 201px;
+    font-family: "Kalam-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.workshop .rectangle-15 {
+    position: absolute;
+    width: 63px;
+    height: 49px;
+    top: 52px;
+    left: 1093px;
+    background-color: #f9f9f9;
+    box-shadow: -4px 4px 10px #0000008a;
+}
+
+.workshop .icon-plus {
+    position: absolute;
+    width: 172px;
+    height: 172px;
+    top: 7409px;
+    left: 2409px;
+}
+
+.workshop .text-21 {
+    position: absolute;
+    width: 1035px;
+    height: 6060px;
+    top: 0;
+    left: 0;
+}
+
+.workshop .component {
+    position: absolute;
+    width: 1033px;
+    height: 419px;
+    top: 0;
+    left: 0;
+    background-color: #dbdbdb9c;
+    border-radius: 15px;
+    box-shadow: 0px 4px 4px #00000040, -8px 8px 16px #00000080;
+}
+
+.workshop .explore-the-fusion {
+    position: absolute;
+    width: 960px;
+    top: 5744px;
+    left: 27px;
+    font-family: "Margarine-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.workshop .IMG-removebg-3 {
+    position: absolute;
+    width: 1px;
+    height: 682px;
+    top: 338px;
+    left: 1728px;
+    object-fit: cover;
+}
+
+.workshop .back-button {
+    position: fixed;
+    width: 112px;
+    height: 45px;
+    top: 832px;
+    left: -206px;
+    all: unset;
+    box-sizing: border-box;
+}
+
+.workshop .back {
+    position: relative;
+    width: 114px;
+    height: 45px;
+}
+
+.workshop .overlap-group-11 {
+    position: absolute;
+    width: 112px;
+    height: 45px;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    border: 1px solid;
+    border-color: #000000;
+    box-shadow: -4px 4px 4px #00000073;
+}
+
+.workshop .text-wrapper-64 {
+    position: absolute;
+    width: 53px;
+    top: 3px;
+    left: 48px;
+    font-family: "Kalam-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.workshop .icon-arrow-back {
+    position: absolute;
+    width: 44px;
+    height: 38px;
+    top: -4786px;
+    left: 1617px;
+}
+
+.workshop .next-button {
+    position: fixed;
+    width: 112px;
+    height: 45px;
+    top: 832px;
+    left: 1819px;
+    all: unset;
+    box-sizing: border-box;
+}
+
+.workshop .icon-arrow-back-2 {
+    position: absolute;
+    width: 44px;
+    height: 38px;
+    top: -4748px;
+    left: -364px;
+}

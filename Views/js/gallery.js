@@ -78,11 +78,13 @@ function resizeGallery(imagesPerRow) {
     const gallery = document.getElementById('gallery');
     const gridItems = gallery.querySelectorAll('.grid-item');
     const gap = 10; // Adjust the gap as needed
+    // const galleryheight = document.querySelectorAll('.grid-container');
+    const galleryheight = $('.grid-container div img');
 
     // Calculate the width for each grid item
     // const itemWidth = `calc((100% - ${gap * (imagesPerRow - 1)}px) / ${imagesPerRow})`;
-    const itemWidth = "183px";
-
+    const itemWidth = "178px";
+    galleryheight.css('height', '178px');
     // Update grid styles
     gallery.style.width = '100%';
     gallery.style.height = 'auto';
@@ -100,6 +102,12 @@ function randomGallery(imagesPerRow) {
     const gallery = document.getElementById('gallery');
     const gridItems = gallery.querySelectorAll('.grid-item');
     const gap = 10; // Adjust the gap as needed
+    const galleryheight = $('.grid-container div img');
+
+    // Calculate the width for each grid item
+    // const itemWidth = `calc((100% - ${gap * (imagesPerRow - 1)}px) / ${imagesPerRow})`;
+
+    galleryheight.css('height', 'auto');
 
     // Calculate the width for each grid item
     const itemWidth = `calc((100% - ${gap * (imagesPerRow - 1)}px) / ${imagesPerRow})`;

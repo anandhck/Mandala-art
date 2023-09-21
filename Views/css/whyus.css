@@ -32,6 +32,21 @@ body {
     /* Center horizontally */
 }
 
+.join-cls {
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 2vw;
+    color: #f12020;
+    font-family: "Kalam", sans-serif;
+    background-color: rgb(192, 194, 196);
+    width: 100px;
+    margin: 0 auto;
+    box-shadow: -4px 4px 8px 0px rgba(0, 0, 0, 0.65);
+    cursor: pointer;
+}
+
 
 /* about */
 
@@ -86,9 +101,9 @@ body {
 }
 
 .img-style {
-    width: 85%;
+    width: 91%;
     height: auto;
-    margin-top: 30px;
+    margin-top: -20px;
 }
 
 .img-style-2 {
@@ -157,11 +172,12 @@ body {
     text-align: right;
     font-family: "Kalam", sans-serif;
     font-size: 2vw;
+    /* border-right: solid 2px #00fc48; */
 }
 
 .passionate-tittle-growth-2 {
     color: #ff0000;
-    text-align: left;
+    /* text-align: left; */
     font-family: "Kalam", sans-serif;
     margin-left: 33px;
     font-size: 2vw;
@@ -169,7 +185,7 @@ body {
 
 .header-value {
     color: #000000;
-    text-align: right;
+    /* text-align: right; */
     font-family: "Kalam", sans-serif;
     font-size: 2vw;
     margin-top: -20px;
@@ -178,10 +194,10 @@ body {
 .header-value-2 {
     margin-top: -20px;
     color: #000000;
-    text-align: left;
+    /* text-align: left; */
     font-family: "Kalam", sans-serif;
     font-size: 2vw;
-    margin-left: 35px;
+    /* margin-left: 35px; */
 }
 
 .why-to-choose-box-content {
@@ -279,9 +295,10 @@ body {
     position: relative;
 }
 
-.workshop-benifits-con {
+
+/* .workshop-benifits-con {
     margin: 25px;
-}
+} */
 
 .benifits-contents {
     display: flex;
@@ -380,6 +397,12 @@ input.form-control.input-style {
 
 /* workshop navtabs */
 
+.book-ur-slot {
+    background: rgba(146, 138, 193, 0.5);
+    box-shadow: -4px 4px 8px 0px rgba(0, 0, 0, 0.55);
+    z-index: 9999;
+}
+
 .nav-tab-dsg {
     display: flex;
     justify-content: center;
@@ -393,7 +416,7 @@ input.form-control.input-style {
     border-style: solid;
     border-color: #0eff8b;
     border-width: 5px;
-    max-width: 800px;
+    max-width: 100%;
     width: 100%;
     margin: 0 auto;
     /* background-color: #514e4e; */
@@ -472,7 +495,7 @@ input.form-control.input-style {
     border-color: #3affff;
     background-color: rgba(249, 232, 232, 0.21);
     border-width: 5px;
-    max-width: 800px;
+    max-width: 100%;
     width: 100%;
     margin: 0 auto;
 }
@@ -485,7 +508,7 @@ input.form-control.input-style {
     /* background-color: #514e4e; */
     background-color: rgba(249, 232, 232, 0.21);
     border-width: 5px;
-    max-width: 800px;
+    max-width: 100%;
     width: 100%;
     margin: 0 auto;
 }
@@ -548,7 +571,7 @@ input.form-control.input-style {
     color: #f6f6f6;
     text-align: left;
     font-family: "Kalam", sans-serif;
-    font-size: 2vw;
+    font-size: 1.5vw;
     position: relative;
     /* width: 1394px; */
 }
@@ -571,12 +594,12 @@ input.form-control.input-style {
     color: #ffffff;
     text-align: left;
     font-family: "Kalam", sans-serif;
-    font-size: 2vw;
+    font-size: 1.5vw;
 }
 
 .benifits-contents-value-2 {
     color: #ffffff;
     text-align: left;
     font-family: "Kalam", sans-serif;
-    font-size: 2vw;
+    font-size: 1.5vw;
 }

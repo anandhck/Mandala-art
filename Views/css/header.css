@@ -6,7 +6,8 @@
 
 .nav-header {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-around;
+    gap: 30px;
 }
 
 .header-bg {
@@ -64,8 +65,10 @@
 
 .navbar-nav .nav-item .nav-link {
     font-family: "Kalam", sans-serif;
-    font-size: 2vw;
+    font-size: 1.2vw;
     color: #000000;
+    gap: 30px;
+    display: contents;
 }
 
 .frame-1 {

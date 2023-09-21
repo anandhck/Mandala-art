@@ -20,6 +20,12 @@ body {
     overflow: auto;
 }
 
+.photo-grid .images {
+    height: 180px;
+    object-fit: cover;
+    border-color: aliceblue;
+}
+
 .photos-collection {
     display: flex;
     justify-content: center;

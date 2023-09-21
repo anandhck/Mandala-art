@@ -26,14 +26,18 @@ h1 {
 }
 
 .grid-container div {
-    width: 150px;
+    object-fit: cover;
+    /* height: 166px; */
+    justify-content: center;
+    /* width: 150px; */
     margin: 0 1.5rem 1.5rem 0;
     display: inline-block;
-    width: 100%;
+    /* width: 100%; */
     border: solid 2px black;
     padding: 5px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
     border-radius: 5px;
+    /* height: 178px; */
     transition: all 0.25s ease-in-out;
 }
 
@@ -50,6 +54,7 @@ h1 {
     /* filter: grayscale(100%); */
     border-radius: 5px;
     transition: all 0.25s ease-in-out;
+    object-fit: cover;
 }
 
 .grid-container div p {
