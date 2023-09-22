@@ -105,7 +105,7 @@ function randomGallery(imagesPerRow) {
     const galleryheight = $('.grid-container div img');
 
     // Calculate the width for each grid item
-    // const itemWidth = `calc((100% - ${gap * (imagesPerRow - 1)}px) / ${imagesPerRow})`;
+    //// const itemWidth = `calc((100% - ${gap * (imagesPerRow - 1)}px) / ${imagesPerRow})`;
 
     galleryheight.css('height', 'auto');
 
