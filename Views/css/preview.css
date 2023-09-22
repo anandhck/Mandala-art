@@ -120,3 +120,18 @@ body {
 .photos-collection ::-webkit-scrollbar-thumb:hover {
     background: rgb(16, 205, 234);
 }
+
+@media (max-width: 768px) {
+    .card-text {
+        font-size: 10px;
+    }
+    .card-title {
+        font-size: 12px;
+    }
+    .next-btn .carousel-control-next {
+        margin-right: -9px;
+    }
+    .photos-collection-right {
+        box-shadow: none !important;
+    }
+}

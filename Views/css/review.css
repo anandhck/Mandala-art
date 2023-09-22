@@ -80,3 +80,15 @@
     color: red !important;
     /* Set the desired color */
 }
+
+@media (max-width: 768px) {
+    .card-text {
+        font-size: 10px;
+    }
+    .card-title {
+        font-size: 12px;
+    }
+    .next-btn .carousel-control-next {
+        margin-right: -9px;
+    }
+}
