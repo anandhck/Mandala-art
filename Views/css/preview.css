@@ -134,4 +134,14 @@ body {
     .photos-collection-right {
         box-shadow: none !important;
     }
+    .photo-grid {
+        height: 270px;
+    }
+    .photo-grid .images {
+        height: 77px;
+        max-width: 38%;
+    }
+    .photos-collection-image {
+        width: 90%;
+    }
 }

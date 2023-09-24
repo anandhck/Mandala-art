@@ -4,10 +4,7 @@
 /*both image and text*/
 
 .img-text {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    flex-wrap: wrap;
 }
 
 
@@ -318,4 +315,14 @@
 :root {
     --animate-duration: 500ms;
     --animate-delay: 0.10s;
+}
+
+@media (max-width: 768px) {
+    .img-text {
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
 }

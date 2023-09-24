@@ -4,112 +4,76 @@
     /* You can also specify other font formats like woff, woff2 for better browser compatibility */
 }
 
-.nav-header {
-    display: flex;
-    justify-content: space-around;
-    gap: 30px;
+
+/* new */
+
+* {
+    box-sizing: border-box;
 }
 
-.header-bg {
-    background: #d8dad8;
-    border-radius: 20px;
-    box-shadow: -5px 8px 8px 0px rgba(0, 0, 0, 0.45);
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.header-bg-2 {
-    background: #d8dad8;
-    border-radius: 20px;
-}
-
-.media {
-    align-items: center;
-    display: flex;
-    background: #d8dad8;
-}
-
-.image-div {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.madala-head {
-    color: #000000;
-    text-align: left;
-    font: 400 28px "MedievalSharp", sans-serif;
+.header {
     overflow: hidden;
+    background-color: #9fa0a2;
+    padding: 20px 10px;
+    border-radius: 25px;
 }
 
-.h-logo {
-    max-width: 200px;
-}
-
-.media-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.media-body a {
+.header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
     text-decoration: none;
-}
-
-.circ-heal-studio {
-    display: flex;
-    align-items: center;
-}
-
-.header-img {
-    z-index: -22222;
-}
-
-.navbar-nav .nav-item .nav-link {
+    font-size: 18px;
+    line-height: 25px;
     font-family: "Kalam", sans-serif;
-    font-size: 1.2vw;
-    color: #000000;
-    gap: 30px;
-    display: contents;
+    border-radius: 18px;
 }
 
-.frame-1 {
-    background: #fcf4fa;
-    border-radius: 15px;
-    width: 1552px;
-    height: 155px;
-    position: absolute;
-    left: calc(50% - 776px);
-    top: 56px;
+.header a.logo {
+    font-size: 25px;
+    font-weight: bold;
 }
 
-.circ-heal-studio-logo-removebg-preview-1 {
-    width: 264px;
-    height: 324px;
-    position: absolute;
-    left: 2px;
-    top: calc(50% - 115.5px);
-    box-shadow: -10px 10px 25px 0px rgba(0, 0, 0, 1);
+.header a:hover {
+    background-color: #12a9ea;
+    color: black;
 }
 
-@media screen and (max-width: 768px) {
-    /* Your mobile styles here */
-    body {
-        font-size: 16px;
-        /* Adjust font size for mobile view */
+.header a.active {
+    background-color: rgb(20, 122, 225);
+    color: white;
+}
+
+.header-right {
+    float: right;
+}
+
+@media screen and (max-width: 500px) {
+    .header a {
+        float: none;
+        display: block;
+        text-align: left;
     }
-    .madala-head {
-        display: none;
-    }
-    /* Example: Adjust the width of a container for mobile */
-    .container {
-        width: 100%;
-        padding: 10px;
+    .header-right {
+        float: none;
     }
 }
 
-.navbar-nav .nav-link:hover {
+.header a {
     background-color: #9fa0a2;
     /* Background color on hover */
     color: #fff;
     /* Text color on hover */
-    border-radius: 30px;
+    border-radius: 18px;
+}
+
+.header .header-right a {
+    margin-right: 15px;
+    /* Add right margin to create space between links */
 }

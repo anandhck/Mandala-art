@@ -1,3 +1,9 @@
+body {
+    overflow-x: hidden !important;
+    margin: 0;
+    padding: 0;
+}
+
 .reviews {
     color: #000000;
     text-align: left;
@@ -67,12 +73,12 @@
 
 .next-btn .carousel-control-prev {
     margin-top: 70px;
-    margin-left: -85px;
+    margin-left: -89px;
 }
 
 .next-btn .carousel-control-next {
     margin-top: 70px;
-    margin-right: -85px;
+    margin-right: -89px;
 }
 
 .next-btn .carousel-control-next .carousel-control-prev-icon,

@@ -33,7 +33,7 @@
         <div class="container">
             <div class="row bg-img-div">
                 <!-- <div class="home-about-us"> -->
-                <div class="col-xl-8 c0l-xxl-8 col-sm-12 col-xm-12 ">
+                <div class="col-xl-8 col-lg-8 col-xxl-8 col-sm-12 col-xm-12">
                     <div class="about-us  ms-5">
                         <h3 class="about-txt ms-4 mb-4">About us</h3>
                         <span><span class="welcome-experiences-span">
@@ -51,10 +51,7 @@
                                 fueled by a dedication to crafting meaningful experiences.</span>
                             <br>
                             <br>
-                            <br>
-                            <!-- <a class="home-about-us-learn-more-txt" href="whyus.html">
-                                    Read more
-                                </a> -->
+
                             <div class="buttons-container mb-4">
                                 <button class="button-arounder"><a href="whyus.html">Read more</a></button>
                             </div>
@@ -140,12 +137,14 @@
                                         </div>
                                         <div class="art-btns-mandala">
                                             <div class="buttons-container mb-4">
-                                                <button class="button-arounder"><a href="#">
+                                                <button class="button-arounder"><a href="#" data-bs-toggle="modal"
+                                                        data-bs-target="#myModal">
                                                         One
                                                         Day Workshop</a></button>
                                             </div>
                                             <div class="buttons-container mb-4">
-                                                <button class="button-arounder"><a href="#">40
+                                                <button id="hours-btn" class="button-arounder"><a href="#"
+                                                        data-bs-toggle="modal" data-bs-target="#myModal">40
                                                         Hours Workshop</a></button>
                                             </div>
                                         </div>
@@ -184,12 +183,14 @@
                                             </div>
                                             <div class="art-btns-mandala">
                                                 <div class="buttons-container mb-4">
-                                                    <button class="button-arounder"><a href="">
+                                                    <button class="button-arounder"><a href="" data-bs-toggle="modal"
+                                                            data-bs-target="#bottleModal">
                                                             One
                                                             Day Workshop</a></button>
                                                 </div>
                                                 <div class="buttons-container mb-4">
-                                                    <button class="button-arounder"><a href="">40
+                                                    <button class="button-arounder"><a href="" data-bs-toggle="modal"
+                                                            data-bs-target="#bottleModal">40
                                                             Hours Workshop</a></button>
                                                 </div>
                                             </div>
@@ -228,12 +229,14 @@
                                             </div>
                                             <div class="art-btns-mandala">
                                                 <div class="buttons-container mb-4">
-                                                    <button class="button-arounder"><a href="">
+                                                    <button class="button-arounder"><a href="" data-bs-toggle="modal"
+                                                            data-bs-target="#doodleModal">
                                                             One
                                                             Day Workshop</a></button>
                                                 </div>
                                                 <div class="buttons-container mb-4">
-                                                    <button class="button-arounder"><a href="">40
+                                                    <button class="button-arounder"><a href="" data-bs-toggle="modal"
+                                                            data-bs-target="#doodleModal">40
                                                             Hours Workshop</a></button>
                                                 </div>
                                             </div>
@@ -248,7 +251,14 @@
             <br>
             <br>
 
+
             <div class="row pre-bg">
+                <div class="col-6">
+                    <div class="photos-collection-right">
+                        <img class="photos-collection-image" src="./images/homeart.png" id="selected-image"
+                            alt="Dynamic Image">
+                    </div>
+                </div>
                 <div class="col-6">
                     <div class="photo-grid">
                         <!-- Add photos here -->
@@ -286,18 +296,13 @@
                         <img class="images" id="dynamic-image" src="./images/homeart.png" alt="Dynamic Image">
                     </div>
                 </div>
-                <div class="col-6">
-                    <div class="photos-collection-right">
-                        <img class="photos-collection-image" src="./images/homeart.png" id="selected-image"
-                            alt="Dynamic Image">
-                    </div>
-                </div>
+
                 <br>
                 <br>
             </div>
             <div class="col-12 mt-3">
-                <div class="workshop-btn-2">
-                    <a class="workshop" href="./ourwork.html">See more pics -&gt;</a>
+                <div class="buttons-container-2 mt-4">
+                    <button class="button-arounder-2"><a href="./ourwork.html">See more pics -&gt;</a></button>
                 </div>
             </div>
             <br>
@@ -306,18 +311,22 @@
             <div class="col-12 mt-4">
                 <div class="photos-btn-cntrl">
                     <div class="col-4">
-                        <div class="workshop-btn">
-                            <a href="ourwork.html" class="workshop">Our works</a>
+                        <div class="buttons-container-2 mb-4">
+                            <button class="button-arounder-2"><a href="ourwork.html" class="workshop">Our
+                                    works</a></button>
                         </div>
                     </div>
                     <div class="col-4">
-                        <div class="workshop-btn">
-                            <div class="workshop">Shop</div>
+
+                        <div class="buttons-container-2 mb-4">
+
+                            <button class="button-arounder-2"><a href="shop.html" class="workshop">Shop</a></button>
                         </div>
                     </div>
                     <div class="col-4">
-                        <div class="workshop-btn">
-                            <div class="workshop">Contact us;</div>
+                        <div class="buttons-container-2 mb-4">
+                            <button class="button-arounder-2"><a href="shop.html" class="workshop">Contact
+                                    us;</a></button>
                         </div>
                     </div>
                 </div>
@@ -327,8 +336,315 @@
         <div class="review-bg">
             <div id="review-content"></div>
         </div>
+        <div class="modal-container" style="z-index: 9999;">
+            <div class="modal" id="myModal">
+                <div class="modal-dialog modal-xl modal-dialog-centered">
+                    <div class="modal-content modal-bg-clr">
+                        <div class="modal-header">
+
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+
+                        </div>
+                        <div class="modal-body modal-bg-clr">
+                            <div id="tabs" class="tabs-visible">
+                                <nav>
+                                    <div class="nav nav-tabs nav-tab-dsg" id="nav-tab" role="tablist">
+                                        <button class="nav-link active mandala-art-nav" id="nav-workshop-tab"
+                                            data-bs-toggle="tab" data-bs-target="#nav-workshop" type="button" role="tab"
+                                            aria-controls="nav-workshopp" aria-selected="true">One
+                                            Day Workshop</button>
+                                        <button class="nav-link bottle-art-nav" id="nav-workshoptab"
+                                            data-bs-toggle="tab" data-bs-target="#nav-hours" type="button" role="tab"
+                                            aria-controls="nav-profile" aria-selected="false">40
+                                            Hours Workshop</button>
+
+                                    </div>
+                                </nav>
+                                <div class="tab-content nav-tab-dsg-doodle" id="nav-workshop">
+                                    <div class="tab-pane fade show active" id="nav-workshopp" role="tabpanel"
+                                        aria-labelledby="nav-workshop-tab">
+                                        <div class="mandala-art-workshop">
+                                            <div class="row">
+                                                <div class="col-6 para-workshop">
+                                                    <p class="para-workshop-text">
+                                                        Price For one day workshop - <br />depends on the city and Time
+                                                        <br />please contact us for more information<br />
+                                                    </p>
+                                                </div>
+                                                <div class=" col-6 para-workshop-contact">
+                                                    <div class="rectangle-93 ">
+                                                        <div class="whatspp-link ">
+                                                            <div class="whatsapp-logo ">
+                                                                <img class=" whatsapp-1 "
+                                                                    src=" ./images/whatsapp-logo.png " />
+                                                            </div>
+                                                            <div class="whats-app-text ">
+                                                                Please click the icon to connect with us in WhatsApp
+                                                                <br />
+                                                                <br>
+                                                                <div class="contact mb-4 ">+91 9789318307</div>
+                                                            </div>
 
 
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="nav-hours" role="tabpanel"
+                                        aria-labelledby="nav-workshoptab">
+                                        <div class="mandala-art-workshop">
+                                            <div class="row">
+                                                <div class="col-6 para-workshop">
+                                                    <p class="para-workshop-text">
+                                                        This workshop will be Scheduled and planned on your requested
+                                                        time and date<br /><br />please contact us for more information
+                                                    </p>
+                                                </div>
+                                                <div class=" col-6 para-workshop-contact">
+                                                    <div class="rectangle-93 ">
+                                                        <div class="whatspp-link ">
+                                                            <div class="whatsapp-logo ">
+                                                                <img class=" whatsapp-1 "
+                                                                    src=" ./images/whatsapp-logo.png " />
+                                                            </div>
+                                                            <div class="whats-app-text ">
+                                                                Please click the icon to connect with us in WhatsApp
+                                                                <br />
+                                                                <br>
+                                                                <div class="contact mb-4 ">+91 9789318307</div>
+                                                            </div>
+
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- bottlepaintong tabs  -->
+        <div class="modal-container" style="z-index: 9999;">
+            <div class="modal" id="bottleModal">
+                <div class="modal-dialog modal-xl modal-dialog-centered">
+                    <div class="modal-content modal-bottle-clr ">
+                        <div class="modal-header">
+
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+
+                        </div>
+                        <div class="modal-body modal-bg-clr">
+                            <div id="tabs" class="tabs-visible">
+                                <nav>
+                                    <div class="nav nav-tabs nav-tab-dsg" id="nav-tab" role="tablist">
+                                        <button class="nav-link active mandala-art-nav" id="nav-workshop-tab"
+                                            data-bs-toggle="tab" data-bs-target="#nav-workshop" type="button" role="tab"
+                                            aria-controls="nav-workshopp" aria-selected="true">One
+                                            Day Workshop</button>
+                                        <button class="nav-link bottle-art-nav" id="nav-workshoptab"
+                                            data-bs-toggle="tab" data-bs-target="#nav-hours" type="button" role="tab"
+                                            aria-controls="nav-profile" aria-selected="false">40
+                                            Hours Workshop</button>
+
+                                    </div>
+                                </nav>
+                                <div class="tab-content nav-tab-dsg-doodle" id="nav-workshop">
+                                    <div class="tab-pane fade show active" id="nav-workshopp" role="tabpanel"
+                                        aria-labelledby="nav-workshop-tab">
+                                        <div class="modal-bottle-clr">
+                                            <div class="row">
+                                                <div class="col-6 para-workshop">
+                                                    <p class="para-workshop-text">
+                                                        Price For one day workshop - <br />depends on the city and Time
+                                                        <br />please contact us for more information<br />
+                                                    </p>
+                                                </div>
+                                                <div class=" col-6 para-workshop-contact">
+                                                    <div class="rectangle-93 ">
+                                                        <div class="whatspp-link ">
+                                                            <div class="whatsapp-logo ">
+                                                                <img class=" whatsapp-1 "
+                                                                    src=" ./images/whatsapp-logo.png " />
+                                                            </div>
+                                                            <div class="whats-app-text ">
+                                                                Please click the icon to connect with us in WhatsApp
+                                                                <br />
+                                                                <br>
+                                                                <div class="contact mb-4 ">+91 9789318307</div>
+                                                            </div>
+
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="nav-hours" role="tabpanel"
+                                        aria-labelledby="nav-workshoptab">
+                                        <div class="modal-bottle-clr">
+                                            <div class="row">
+                                                <div class="col-6 para-workshop">
+                                                    <p class="para-workshop-text">
+                                                        This workshop will be Scheduled and planned on your requested
+                                                        time and date<br /><br />please contact us for more information
+                                                    </p>
+                                                </div>
+                                                <div class=" col-6 para-workshop-contact">
+                                                    <div class="rectangle-93 ">
+                                                        <div class="whatspp-link ">
+                                                            <div class="whatsapp-logo ">
+                                                                <img class=" whatsapp-1 "
+                                                                    src=" ./images/whatsapp-logo.png " />
+                                                            </div>
+                                                            <div class="whats-app-text ">
+                                                                Please click the icon to connect with us in WhatsApp
+                                                                <br />
+                                                                <br>
+                                                                <div class="contact mb-4 ">+91 9789318307</div>
+                                                            </div>
+
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- doodle workshop -->
+
+        <div class="modal-container" style="z-index: 9999;">
+            <div class="modal" id="doodleModal">
+                <div class="modal-dialog modal-xl modal-dialog-centered">
+                    <div class="modal-content modal-bottle-clr ">
+                        <div class="modal-header">
+
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+
+                        </div>
+                        <div class="modal-body modal-bg-clr">
+                            <div id="tabs" class="tabs-visible">
+                                <nav>
+                                    <div class="nav nav-tabs nav-tab-dsg" id="nav-tab" role="tablist">
+                                        <button class="nav-link active mandala-art-nav" id="nav-workshop-tab"
+                                            data-bs-toggle="tab" data-bs-target="#nav-workshop" type="button" role="tab"
+                                            aria-controls="nav-workshopp" aria-selected="true">One
+                                            Day Workshop</button>
+                                        <button class="nav-link bottle-art-nav" id="nav-workshoptab"
+                                            data-bs-toggle="tab" data-bs-target="#nav-hours" type="button" role="tab"
+                                            aria-controls="nav-profile" aria-selected="false">40
+                                            Hours Workshop</button>
+
+                                    </div>
+                                </nav>
+                                <div class="tab-content nav-tab-dsg-doodle" id="nav-workshop">
+                                    <div class="tab-pane fade show active" id="nav-workshopp" role="tabpanel"
+                                        aria-labelledby="nav-workshop-tab">
+                                        <div class="modal-doodle-clr">
+                                            <div class="row">
+                                                <div class="col-6 para-workshop">
+                                                    <p class="para-workshop-text">
+                                                        Price For one day workshop - <br />depends on the city and Time
+                                                        <br />please contact us for more information<br />
+                                                    </p>
+                                                </div>
+                                                <div class=" col-6 para-workshop-contact">
+                                                    <div class="rectangle-93 ">
+                                                        <div class="whatspp-link ">
+                                                            <div class="whatsapp-logo ">
+                                                                <img class=" whatsapp-1 "
+                                                                    src=" ./images/whatsapp-logo.png " />
+                                                            </div>
+                                                            <div class="whats-app-text ">
+                                                                Please click the icon to connect with us in WhatsApp
+                                                                <br />
+                                                                <br>
+                                                                <div class="contact mb-4 ">+91 9789318307</div>
+                                                            </div>
+
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="nav-hours" role="tabpanel"
+                                        aria-labelledby="nav-workshoptab">
+                                        <div class="modal-doodle-clr">
+                                            <div class="row">
+                                                <div class="col-6 para-workshop">
+                                                    <p class="para-workshop-text">
+                                                        This workshop will be Scheduled and planned on your requested
+                                                        time and date<br /><br />please contact us for more information
+                                                    </p>
+                                                </div>
+                                                <div class=" col-6 para-workshop-contact">
+                                                    <div class="rectangle-93 ">
+                                                        <div class="whatspp-link ">
+                                                            <div class="whatsapp-logo ">
+                                                                <img class=" whatsapp-1 "
+                                                                    src=" ./images/whatsapp-logo.png " />
+                                                            </div>
+                                                            <div class="whats-app-text ">
+                                                                Please click the icon to connect with us in WhatsApp
+                                                                <br />
+                                                                <br>
+                                                                <div class="contact mb-4 ">+91 9789318307</div>
+                                                            </div>
+
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="footer">
             <div id="footer"></div>
         </div>
@@ -337,6 +653,7 @@
 
 
     <script src="./js/common.js"></script>
+
     <script src="./js/jQuery/jquery.3.7.0.js"></script>
     <script src="./js/popper/popper.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
@@ -379,6 +696,46 @@
         // tool tips
         $(function () {
             $('[data-bs-toggle="tooltip"]').tooltip();
+        });
+
+
+        $(document).ready(function () {
+            // Hide the 40 Hours Workshop tab initially
+            $('#nav-hours').removeClass('show active');
+            $('#nav-workshoptab').removeClass('active');
+
+            // Add an event listener to the One Day Workshop tab button
+            $('#nav-workshop-tab').click(function () {
+                // Show the One Day Workshop tab content
+                $('#nav-workshopp').addClass('show active');
+                $('#nav-workshop-tab').addClass('active');
+
+                // Hide the 40 Hours Workshop tab content
+                $('#nav-hours').removeClass('show active');
+                $('#nav-workshoptab').removeClass('active');
+            });
+
+            // Add an event listener to the 40 Hours Workshop tab button
+            $('#nav-workshoptab').click(function () {
+                // Show the 40 Hours Workshop tab content
+                $('#nav-hours').addClass('show active');
+                $('#nav-workshoptab').addClass('active');
+
+                // Hide the One Day Workshop tab content
+                $('#nav-workshopp').removeClass('show active');
+                $('#nav-workshop-tab').removeClass('active');
+            });
+
+
+            $('#hours-btn').click(function () {
+                // Show the 40 Hours Workshop tab content
+                $('#nav-hours').addClass('show active');
+                $('#nav-workshoptab').addClass('active');
+
+                // Hide the One Day Workshop tab content
+                $('#nav-workshopp').removeClass('show active');
+                $('#nav-workshop-tab').removeClass('active');
+            });
         });
     </script>
 </body>
